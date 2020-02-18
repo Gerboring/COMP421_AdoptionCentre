@@ -4,17 +4,43 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class InitializeReset {
+
     public static void main(String[] args) throws SQLException, ClassNotFoundException {
         Class.forName("org.postgresql.Driver");
         Scanner scan = new Scanner(System.in);
         System.out.println("Input db password");
         String password = scan.nextLine();
         Connection conn1 = DriverManager.getConnection("jdbc:postgresql://comp421.cs.mcgill.ca:5432/cs421", "cs421g72", password);
-       System.out.println("Connection Successful");
-       createTable(conn1,"personnel",getPersonnelStatement());
-       conn1.close();
+        System.out.println("Connection Successful");
+        createTables(conn1);
+        conn1.close();
     }
 
+    public static void createTables(Connection conn1) throws SQLException {
+        createTable(conn1, "Animal", getAnimalStatement());
+        createTable(conn1, "Client", getClientStatement());
+        createTable(conn1, "Personnel", getPersonnelStatement());
+        createTable(conn1, "Veterinarian", getVeterinarianStatement());
+        createTable(conn1, "AnimalControlWorker", getAnimalControlWorkerStatement());
+        createTable(conn1, "VolunteerCareWorker", getVolunteerCareWorkerStatement());
+        createTable(conn1, "Complaint", getComplaintStatement());
+        createTable(conn1, "Room", getRoomStatement());
+        createTable(conn1, "MedicalRoom", getMedicalRoomStatement());
+        createTable(conn1, "HoldingRoom", getHoldingRoomStatement());
+
+    }
+
+/* @todo
+* Kennel
+* Procedure
+* Visits
+* Adopts
+* Captures
+* Surrenders
+* Investigates
+* ConductsProcedure
+* ReceivesProcedure
+*/
     public static void createTable(Connection conn, String tableName, String statement) throws SQLException{
         Statement stmt = conn.createStatement();
         try {
@@ -68,6 +94,61 @@ public class InitializeReset {
                 "    salary INTEGER," +
                 "    PRIMARY KEY(staffID)" +
                 ");";
+    }
+
+    public static String getVeterinarianStatement(){
+        return "CREATE TABLE Veterinarian" +
+                "(" +
+                " qualifications VARCHAR(500)" +
+                ") INHERITS (Personnel);";
+    }
+
+
+    public static String getAnimalControlWorkerStatement(){
+        return "CREATE TABLE AnimalControlWorker()\n" +
+                "INHERITS (Personnel);";
+    }
+
+    public static String getVolunteerCareWorkerStatement(){
+        return "CREATE TABLE VolunteerCareWorker()\n" +
+                "INHERITS (Personnel);";
+    }
+
+    public static String getComplaintStatement(){
+        return "CREATE TABLE Complaint" +
+                "(" +
+                "complaintTime DATE NOT NULL, location VARCHAR(50) NOT NULL," +
+                " staffID INTEGER, name VARCHAR(20)," +
+                " phone INTEGER, description VARCHAR(50)," +
+                " status CHAR NOT NULL DEFAULT ‘O’, PRIMARY KEY(complaintTime, location), " +
+                "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker, " +
+                "FOREIGN KEY(name) REFERENCES Client," +
+                " FOREIGN KEY(phone) REFERENCES Client" +
+                ");";
+    }
+
+    public static String getRoomStatement(){
+        return "CREATE TABLE Room" +
+                "(" +
+                "roomNumber INTEGER NOT NULL," +
+                "PRIMARY KEY(roomNumber)" +
+                ");";
+    }
+
+    public static String getMedicalRoomStatement(){
+        return "CREATE TABLE MedicalRoom" +
+                "(" +
+                "equipment VARCHAR(50)" +
+                ")" +
+                "INHERITS (Room);";
+    }
+
+    public static String getHoldingRoomStatement(){
+        return "CREATE TABLE HoldingRoom" +
+                "(" +
+                "maxCapacity INTEGER" +
+                ")" +
+                "INHERITS (Room);";
     }
 
 }
