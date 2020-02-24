@@ -1,0 +1,500 @@
+﻿age_upon_intake,animal_id,animal_type,breed,color,datetime,datetime2,found_location,intake_condition,intake_type,name,sex_upon_intake
+8 years,A706918,Dog,English Springer Spaniel,White/Liver,2015-07-05T12:59:00.000,2015-07-05T12:59:00.000,9409 Bluegrass Dr in Austin (TX),Normal,Stray,Belle,Spayed Female
+11 months,A724273,Dog,Basenji Mix,Sable/White,2016-04-14T18:43:00.000,2016-04-14T18:43:00.000,2818 Palomino Trail in Austin (TX),Normal,Stray,Runster,Intact Male
+4 weeks,A665644,Cat,Domestic Shorthair Mix,Calico,2013-10-21T07:59:00.000,2013-10-21T07:59:00.000,Austin (TX),Sick,Stray,,Intact Female
+4 years,A682524,Dog,Doberman Pinsch/Australian Cattle Dog,Tan/Gray,2014-06-29T10:38:00.000,2014-06-29T10:38:00.000,800 Grove Blvd in Austin (TX),Normal,Stray,Rio,Neutered Male
+2 years,A743852,Dog,Labrador Retriever Mix,Chocolate,2017-02-18T12:46:00.000,2017-02-18T12:46:00.000,Austin (TX),Normal,Owner Surrender,Odin,Neutered Male
+2 years,A708452,Dog,Labrador Retriever Mix,Black/White,2015-07-30T14:37:00.000,2015-07-30T14:37:00.000,Austin (TX),Normal,Public Assist,Mumble,Intact Male
+5 months,A731435,Cat,Domestic Shorthair Mix,Cream Tabby,2016-08-08T17:52:00.000,2016-08-08T17:52:00.000,Austin (TX),Normal,Owner Surrender,*Casey,Neutered Male
+2 years,A760053,Dog,Chihuahua Shorthair,White/Tan,2017-10-11T15:46:00.000,2017-10-11T15:46:00.000,8800 South First Street in Austin (TX),Normal,Stray,,Intact Male
+5 months,A707375,Dog,Pit Bull,Brown/White,2015-07-11T18:19:00.000,2015-07-11T18:19:00.000,Galilee Court And Damita Jo Dr in Manor (TX),Normal,Stray,*Candy Cane,Intact Female
+2 years,A696408,Dog,Chihuahua Shorthair,Tricolor,2015-02-04T12:58:00.000,2015-02-04T12:58:00.000,9705 Thaxton in Austin (TX),Normal,Stray,*Pearl,Intact Female
+2 years,A743114,Cat,Domestic Shorthair Mix,Black/White,2017-02-04T10:10:00.000,2017-02-04T10:10:00.000,208 Beaver St in Austin (TX),Injured,Stray,,Intact Female
+14 years,A657188,Cat,Domestic Shorthair Mix,Brown Tabby/White,2013-11-10T17:19:00.000,2013-11-10T17:19:00.000,Austin (TX),Normal,Owner Surrender,Tommy,Neutered Male
+4 weeks,A707658,Cat,Domestic Shorthair Mix,Black/White,2015-07-15T17:43:00.000,2015-07-15T17:43:00.000,6118 Fairway in Austin (TX),Normal,Stray,*Mint,Intact Female
+1 month,A736287,Cat,Domestic Shorthair Mix,Torbie,2016-10-08T11:53:00.000,2016-10-08T11:53:00.000,South First And Stassney in Austin (TX),Normal,Stray,*Twilight,Intact Female
+2 months,A697950,Dog,Australian Cattle Dog/Labrador Retriever,Tan/White,2015-03-04T11:22:00.000,2015-03-04T11:22:00.000,1501 S Fm 973 in Austin (TX),Normal,Stray,,Intact Female
+18 years,A298074,Dog,Parson Russell Terrier Mix,Black/White,2015-09-06T14:21:00.000,2015-09-06T14:21:00.000,1801 Westridge in Austin (TX),Normal,Stray,Stumpy,Spayed Female
+2 years,A707974,Cat,Domestic Shorthair Mix,Blue,2015-07-20T18:13:00.000,2015-07-20T18:13:00.000,2307 Ventura in Austin (TX),Normal,Stray,*Cleopatra,Intact Female
+5 months,A682230,Dog,Maltese Mix,White,2014-06-25T16:27:00.000,2014-06-25T16:27:00.000,3737 Keats Dr in Austin (TX),Normal,Stray,,Intact Female
+4 months,A749436,Dog,Dachshund Mix,Brown/White,2017-05-15T09:50:00.000,2017-05-15T09:50:00.000,East Pleasant Valley And Stassney in Austin (TX),Normal,Stray,,Intact Male
+1 year,A722979,Other,Bat Mix,Brown,2016-03-24T16:39:00.000,2016-03-24T16:39:00.000,4100 Westbank Dr in Austin (TX),Normal,Wildlife,,Unknown
+2 years,A696205,Cat,Domestic Shorthair Mix,Black,2015-02-12T11:57:00.000,2015-02-12T11:57:00.000,Austin (TX),Normal,Owner Surrender,Roo,Spayed Female
+1 month,A759935,Dog,Labrador Retriever Mix,Black,2017-10-09T22:39:00.000,2017-10-09T22:39:00.000,4800 Cottonwood St in Austin (TX),Normal,Stray,Dieve,Intact Female
+1 year,A666877,Dog,Dachshund Mix,Tan/White,2013-11-08T15:24:00.000,2013-11-08T15:24:00.000,Guadalupe/St. Johns in Austin (TX),Normal,Stray,*Romeo,Intact Male
+4 days,A706507,Cat,Domestic Shorthair Mix,Black,2015-06-29T17:04:00.000,2015-06-29T17:04:00.000,5306  Peppertree in Austin (TX),Normal,Stray,,Unknown
+2 months,A732903,Dog,Labrador Retriever Mix,Black/White,2016-08-14T15:02:00.000,2016-08-14T15:02:00.000,Austin (TX),Injured,Stray,*Raven,Intact Female
+1 day,A749400,Cat,Domestic Shorthair Mix,Blue,2017-05-14T14:19:00.000,2017-05-14T14:19:00.000,1834 Ferguson in Austin (TX),Normal,Stray,*Pepper,Intact Female
+2 years,A727838,Cat,Domestic Shorthair Mix,Black,2016-05-26T14:01:00.000,2016-05-26T14:01:00.000,2504 Huntwick Dr in Austin (TX),Normal,Stray,,Intact Female
+2 weeks,A701811,Cat,Domestic Shorthair Mix,Gray Tabby,2015-05-05T07:29:00.000,2015-05-05T07:29:00.000,4434 Frontier Trl in Austin (TX),Nursing,Stray,,Unknown
+3 years,A700396,Dog,Pit Bull Mix,Black/White,2015-12-07T09:11:00.000,2015-12-07T09:11:00.000,4200 Smith School Rd in Austin (TX),Normal,Stray,Calseta,Spayed Female
+4 years,A724378,Dog,Tibetan Spaniel Mix,Black/White,2016-04-16T13:36:00.000,2016-04-16T13:36:00.000,Austin (TX),Normal,Owner Surrender,Boxer,Intact Male
+2 years,A702701,Dog,Miniature Pinscher Mix,Chocolate/Brown,2015-05-16T18:38:00.000,2015-05-16T18:38:00.000,Mcneil Drive & Burnet Road in Austin (TX),Normal,Stray,Pepper,Spayed Female
+4 months,A759995,Cat,Domestic Shorthair Mix,Brown Tabby,2017-10-11T11:48:00.000,2017-10-11T11:48:00.000,1709 East 38Th Street in Austin (TX),Normal,Stray,,Unknown
+2 years,A702931,Other,Hamster Mix,White/Gray,2015-05-19T13:23:00.000,2015-05-19T13:23:00.000,Austin (TX),Aged,Euthanasia Request,Henry,Unknown
+1 year,A745133,Dog,Chihuahua Shorthair Mix,Tan,2017-03-13T12:50:00.000,2017-03-13T12:50:00.000,11699 James B Connolly Ln in Austin (TX),Normal,Stray,*Magic,Intact Male
+2 years,A747817,Cat,Domestic Shorthair Mix,Tortie,2017-04-25T12:02:00.000,2017-04-25T12:02:00.000,1328 Lamar Square Dr in Austin (TX),Normal,Stray,Annie,Intact Female
+15 years,A736501,Cat,Domestic Shorthair Mix,Black,2016-10-11T16:43:00.000,2016-10-11T16:43:00.000,Austin (TX),Sick,Owner Surrender,Travis,Neutered Male
+8 years,A755102,Cat,Domestic Longhair Mix,Torbie,2017-07-29T11:49:00.000,2017-07-29T11:49:00.000,18120 River Timber Drive in Travis (TX),Normal,Stray,Talesin,Spayed Female
+1 year,A699608,Cat,Domestic Shorthair Mix,Black,2015-03-30T15:23:00.000,2015-03-30T15:23:00.000,1054 Springdale Rd #108 in Austin (TX),Normal,Stray,,Intact Female
+2 weeks,A714578,Cat,Domestic Shorthair Mix,Brown Tabby,2015-10-25T12:59:00.000,2015-10-25T12:59:00.000,8220 W Hwy 71 in Austin (TX),Normal,Stray,*Dillon,Intact Male
+2 months,A721791,Dog,Dachshund/Chihuahua Shorthair,Brown Merle,2016-03-04T14:18:00.000,2016-03-04T14:18:00.000,12928 Ceder in Travis (TX),Normal,Stray,,Intact Male
+2 years,A754145,Cat,Domestic Shorthair Mix,Black,2017-07-16T13:17:00.000,2017-07-16T13:17:00.000,502 Chihuahua Trl in Austin (TX),Normal,Stray,Petria,Spayed Female
+2 months,A713887,Cat,Domestic Shorthair Mix,Orange Tabby,2015-10-14T15:57:00.000,2015-10-14T15:57:00.000,5055 Hwy 71 E in Del Valle (TX),Normal,Stray,*Alexander,Intact Male
+1 month,A678059,Cat,Domestic Longhair Mix,Brown Tabby,2014-05-03T12:33:00.000,2014-05-03T12:33:00.000,1104 Durham Dr in Austin (TX),Normal,Stray,,Intact Male
+1 year,A758165,Cat,American Shorthair Mix,White/Blue,2017-09-12T10:58:00.000,2017-09-12T10:58:00.000,Austin (TX),Normal,Owner Surrender,Banjo Joey,Intact Female
+3 years,A675555,Dog,German Shepherd/Chow Chow,Sable/Tan,2015-04-04T11:09:00.000,2015-04-04T11:09:00.000,Loyola And Sandshof in Austin (TX),Normal,Stray,Guardian,Neutered Male
+6 years,A747964,Dog,Miniature Schnauzer Mix,White/Gray,2017-04-27T13:23:00.000,2017-04-27T13:23:00.000,15207 Tacon Ln in Pflugerville (TX),Normal,Stray,,Intact Male
+3 weeks,A678830,Cat,Domestic Shorthair Mix,Black,2014-05-13T12:47:00.000,2014-05-13T12:47:00.000,8515 S Ih 35 in Austin (TX),Normal,Stray,,Unknown
+4 weeks,A698165,Other,Bat,Brown/Black,2015-03-06T18:48:00.000,2015-03-06T18:48:00.000,201 San Jacinto Blvd in Austin (TX),Normal,Wildlife,,Unknown
+3 weeks,A704806,Cat,Domestic Shorthair Mix,Brown Tabby,2015-06-09T11:34:00.000,2015-06-09T11:34:00.000,5801 W Us Hwy 290 Service Rd in Austin (TX),Normal,Stray,,Unknown
+1 year,A696174,Cat,Domestic Shorthair,Brown Tabby,2015-01-30T16:08:00.000,2015-01-30T16:08:00.000,Austin (TX),Normal,Owner Surrender,Clancy,Intact Male
+2 months,A740284,Cat,Domestic Shorthair Mix,Blue Tabby,2016-12-14T13:41:00.000,2016-12-14T13:41:00.000,25212 Lakeview Dr in Travis (TX),Normal,Stray,*Wella,Spayed Female
+1 year,A767767,Dog,Labrador Retriever Mix,Yellow,2018-03-06T14:07:00.000,2018-03-06T14:07:00.000,11204 Liberty Farms Drive in Austin (TX),Normal,Stray,*Valerie,Intact Female
+3 weeks,A749544,Cat,Domestic Shorthair Mix,Cream Tabby/White,2017-05-16T11:57:00.000,2017-05-16T11:57:00.000,5400 Freidrich Ln in Austin (TX),Normal,Stray,,Intact Male
+4 weeks,A733559,Cat,Domestic Shorthair Mix,Black,2016-08-23T16:58:00.000,2016-08-23T16:58:00.000,7001 South Congress Avenue in Austin (TX),Normal,Stray,*Guacamole,Intact Male
+4 years,A722856,Dog,Labrador Retriever Mix,White/Black,2016-05-05T15:24:00.000,2016-05-05T15:24:00.000,Austin (TX),Normal,Owner Surrender,Chico,Neutered Male
+6 months,A689054,Cat,Domestic Shorthair Mix,White/Black,2014-09-28T15:47:00.000,2014-09-28T15:47:00.000,Austin (TX),Normal,Owner Surrender,Chappie,Intact Female
+3 years,A710890,Dog,Great Pyrenees Mix,White,2015-08-29T13:15:00.000,2015-08-29T13:15:00.000,14901 Mossycup Ln in Travis (TX),Normal,Stray,The Dude,Intact Male
+2 years,A683884,Dog,German Shepherd Mix,Black/Tan,2014-07-16T15:52:00.000,2014-07-16T15:52:00.000,7619 E Ben White Blvd in Austin (TX),Injured,Stray,Blackie,Neutered Male
+4 months,A714487,Cat,Domestic Shorthair Mix,Blue/White,2015-10-23T17:31:00.000,2015-10-23T17:31:00.000,Loyola And Sendero Hills in Austin (TX),Normal,Stray,,Intact Male
+3 weeks,A678965,Cat,Domestic Shorthair Mix,Calico,2014-05-14T15:04:00.000,2014-05-14T15:04:00.000,Melwood Dr & Tiner Trail in Austin (TX),Normal,Stray,,Intact Female
+4 months,A724359,Dog,Feist/Beagle,Black/Brown,2016-04-16T10:59:00.000,2016-04-16T10:59:00.000,Research And Anderson Square in Austin (TX),Normal,Stray,*Hercules,Intact Male
+2 years,A668295,Cat,Domestic Shorthair Mix,Black/White,2013-12-01T14:38:00.000,2013-12-01T14:38:00.000,Shreveport Dr And Odie Ln in Austin (TX),Normal,Stray,,Intact Female
+2 years,A676263,Dog,Pit Bull Mix,Blue/White,2014-04-07T11:57:00.000,2014-04-07T11:57:00.000,Elfen Way in Austin (TX),Normal,Stray,*Stanley,Neutered Male
+1 year,A678439,Other,Raccoon Mix,Gray/Black,2014-05-09T09:05:00.000,2014-05-09T09:05:00.000,W. 8Th St. in Austin (TX),Injured,Wildlife,,Unknown
+2 years,A719013,Bird,Hawk,Brown/Yellow,2016-01-11T11:29:00.000,2016-01-11T11:29:00.000,1105 Wayside Dr in Austin (TX),Injured,Wildlife,,Unknown
+12 years,A736719,Dog,Labrador Retriever Mix,Tan/White,2016-10-16T10:37:00.000,2016-10-16T10:37:00.000,2115 Campfield Pkwy in Austin (TX),Normal,Stray,Dreamer,Spayed Female
+1 month,A750451,Cat,Domestic Shorthair Mix,Cream/White,2017-05-27T13:16:00.000,2017-05-27T13:16:00.000,14701 Burns in Travis (TX),Normal,Stray,Pancake,Intact Male
+1 month,A707943,Dog,Rottweiler Mix,Black/Tan,2015-07-20T14:46:00.000,2015-07-20T14:46:00.000,Austin (TX),Normal,Owner Surrender,London,Intact Female
+1 week,A696333,Dog,Chihuahua Shorthair Mix,Brown/White,2015-02-03T10:19:00.000,2015-02-03T10:19:00.000,2201 Montopolis in Austin (TX),Normal,Stray,,Unknown
+1 year,A695485,Other,Bat Mix,Brown,2015-01-16T16:11:00.000,2015-01-16T16:11:00.000,12120 Manchaca Rd in Austin (TX),Normal,Wildlife,,Unknown
+1 month,A737007,Cat,Domestic Medium Hair,Brown Tabby/White,2016-10-20T16:47:00.000,2016-10-20T16:47:00.000,Austin (TX),Normal,Owner Surrender,*Cinnamon,Intact Male
+2 years,A687298,Dog,Chihuahua Shorthair Mix,White/Cream,2014-10-07T12:22:00.000,2014-10-07T12:22:00.000,4715 S Congress in Austin (TX),Normal,Public Assist,*Lila,Spayed Female
+10 years,A729943,Cat,Domestic Shorthair Mix,Blue Tabby,2016-06-25T23:09:00.000,2016-06-25T23:09:00.000,2808 Harpers Ferry in Austin (TX),Sick,Stray,*Doug,Intact Male
+2 weeks,A738202,Cat,Domestic Medium Hair Mix,Black/White,2016-11-10T18:16:00.000,2016-11-10T18:16:00.000,845 N Meadows Dr in Austin (TX),Normal,Stray,,Unknown
+9 years,A675067,Dog,Italian Greyhound Mix,Gray,2014-03-22T14:24:00.000,2014-03-22T14:24:00.000,Austin (TX),Normal,Owner Surrender,Ash,Neutered Male
+7 months,A707779,Dog,Chihuahua Shorthair/Jack Russell Terrier,Tricolor,2015-07-17T15:57:00.000,2015-07-17T15:57:00.000,13425 Coomes Dr in Del Valle (TX),Normal,Stray,Roo,Spayed Female
+1 year,A687805,Other,Rabbit Sh Mix,White/Black,2014-09-10T12:39:00.000,2014-09-10T12:39:00.000,8000 Topanga Ln in Austin (TX),Injured,Stray,,Unknown
+1 year,A722000,Cat,Domestic Shorthair Mix,Black/White,2016-03-09T07:28:00.000,2016-03-09T07:28:00.000,8126 Elroy in Del Valle (TX),Injured,Stray,,Intact Female
+2 weeks,A724640,Cat,Domestic Shorthair Mix,Brown Tabby/Black,2016-04-20T08:19:00.000,2016-04-20T08:19:00.000,10636 Marshitahs in Austin (TX),Nursing,Stray,,Intact Male
+5 months,A729026,Cat,Domestic Shorthair Mix,Brown Tabby/White,2016-10-11T18:02:00.000,2016-10-11T18:02:00.000,Austin (TX),Normal,Owner Surrender,*Simon,Neutered Male
+6 years,A729521,Cat,Domestic Shorthair Mix,Black,2016-06-19T16:13:00.000,2016-06-19T16:13:00.000,7200 Twisted Oaks in Austin (TX),Sick,Stray,,Unknown
+1 month,A731789,Dog,Labrador Retriever Mix,Black,2016-07-27T15:06:00.000,2016-07-27T15:06:00.000,5630 Wagon Train Rd in Austin (TX),Normal,Stray,,Intact Female
+3 weeks,A689446,Cat,Domestic Shorthair Mix,Black/White,2014-10-04T11:29:00.000,2014-10-04T11:29:00.000,9520 Quail Ct in Austin (TX),Normal,Stray,*Dizzy,Intact Female
+3 years,A699128,Cat,Domestic Shorthair Mix,Brown Tabby,2015-03-23T10:49:00.000,2015-03-23T10:49:00.000,2317 S.Pleasant Valley in Austin (TX),Injured,Stray,,Intact Female
+4 years,A744010,Dog,Bull Terrier Mix,Black/White,2017-03-02T09:51:00.000,2017-03-02T09:51:00.000,Austin (TX),Normal,Owner Surrender,Axle,Neutered Male
+4 weeks,A709360,Other,Bat,Black/Brown,2015-08-07T22:41:00.000,2015-08-07T22:41:00.000,9900 Mcneil Dr in Austin (TX),Normal,Wildlife,,Unknown
+3 weeks,A688747,Cat,Domestic Shorthair Mix,Brown Tabby,2014-09-23T11:29:00.000,2014-09-23T11:29:00.000,Jean Dr And Grady Dr E in Austin (TX),Normal,Stray,,Intact Female
+5 years,A739423,Cat,Domestic Shorthair Mix,Torbie,2016-12-02T16:30:00.000,2016-12-02T16:30:00.000,Austin (TX),Normal,Owner Surrender,Duckie,Spayed Female
+9 months,A663237,Dog,Boston Terrier/Pembroke Welsh Corgi,Black/White,2014-01-05T12:20:00.000,2014-01-05T12:20:00.000,Cesar Chavez And Martinez in Austin (TX),Normal,Stray,China,Spayed Female
+14 years,A748160,Dog,Labrador Retriever Mix,Black/White,2017-04-30T11:04:00.000,2017-04-30T11:04:00.000,704 Cuernavaca Dr N in Austin (TX),Normal,Stray,Applez,Spayed Female
+4 years,A733066,Dog,Black Mouth Cur Mix,Tan/White,2016-08-27T11:44:00.000,2016-08-27T11:44:00.000,7200 East Riverside in Austin (TX),Normal,Stray,Scooby Dee,Intact Female
+1 weeks,A664262,Cat,Domestic Shorthair Mix,Orange Tabby,2013-10-01T11:45:00.000,2013-10-01T11:45:00.000,4915 Yager Ln in Austin (TX),Normal,Stray,,Intact Male
+8 months,A740708,Dog,German Shepherd/Great Pyrenees,Tan/White,2016-12-21T14:57:00.000,2016-12-21T14:57:00.000,3406 Catalina in Austin (TX),Normal,Stray,,Intact Male
+8 years,A720351,Cat,Domestic Shorthair Mix,Orange Tabby/White,2016-02-07T14:03:00.000,2016-02-07T14:03:00.000,Garbacz Dr And Rockland Dr in Austin (TX),Normal,Stray,Norman,Neutered Male
+6 months,A740584,Dog,Pit Bull Mix,Brown,2016-12-19T17:10:00.000,2016-12-19T17:10:00.000,20412 Keilman Ln in Travis (TX),Normal,Stray,,Intact Female
+2 years,A713772,Cat,Domestic Shorthair Mix,Calico,2015-10-12T16:55:00.000,2015-10-12T16:55:00.000,6301 Linda Ln in Austin (TX),Normal,Stray,Myrtle,Intact Female
+1 weeks,A732885,Cat,Domestic Shorthair Mix,Calico,2016-08-14T13:19:00.000,2016-08-14T13:19:00.000,7601 Old Lockhart Rd in Travis (TX),Normal,Stray,,Unknown
+1 month,A667026,Cat,Domestic Shorthair Mix,Brown Tabby/White,2013-11-11T12:48:00.000,2013-11-11T12:48:00.000,4041 South Congress in Austin (TX),Normal,Stray,Mo,Intact Male
+2 years,A689869,Dog,Cairn Terrier Mix,Buff/White,2014-10-10T18:32:00.000,2014-10-10T18:32:00.000,6700 Elroy Rd in Travis (TX),Normal,Stray,,Intact Male
+1 year,A675229,Dog,Cairn Terrier Mix,Cream,2014-03-25T12:30:00.000,2014-03-25T12:30:00.000,Pflugerville (TX),Normal,Owner Surrender,Snow,Intact Female
+4 weeks,A749815,Cat,Domestic Medium Hair Mix,Black,2017-05-20T08:15:00.000,2017-05-20T08:15:00.000,Burleson Rd in Austin (TX),Normal,Stray,,Intact Female
+1 year,A758183,Dog,Labrador Retriever Mix,Brown,2017-09-12T14:43:00.000,2017-09-12T14:43:00.000,7901 Metrololis Dr in Austin (TX),Normal,Stray,*Fletcher,Intact Male
+2 years,A675001,Other,Bat Mix,Brown,2014-03-21T12:37:00.000,2014-03-21T12:37:00.000,4100 Westbank Dr in Travis (TX),Normal,Wildlife,,Unknown
+2 years,A732427,Dog,Miniature Schnauzer/Miniature Poodle,Gray,2016-08-07T14:10:00.000,2016-08-07T14:10:00.000,E Riverside Dr & Wickersham Ln in Austin (TX),Normal,Stray,*Tina,Intact Female
+1 year,A674020,Other,Skunk Mix,Black/White,2014-03-06T10:24:00.000,2014-03-06T10:24:00.000,16320 Castletroy Dr in Austin (TX),Sick,Wildlife,,Unknown
+8 years,A667174,Dog,Chihuahua Shorthair Mix,Tan/White,2013-11-13T18:56:00.000,2013-11-13T18:56:00.000,Forest Wood/Dittmar in Austin (TX),Normal,Stray,Rusty,Intact Male
+1 month,A733963,Cat,Domestic Shorthair Mix,Black/White,2016-08-30T10:21:00.000,2016-08-30T10:21:00.000,2008 Leeann Dr in Austin (TX),Normal,Stray,,Intact Male
+4 months,A682807,Dog,German Shepherd Mix,Black/Brown,2014-07-03T12:29:00.000,2014-07-03T12:29:00.000,600 W Carrie Manor St in Travis (TX),Normal,Stray,Kent,Intact Male
+3 months,A668490,Cat,Domestic Shorthair Mix,Blue Tabby,2013-12-04T13:10:00.000,2013-12-04T13:10:00.000,8912 N.Lamar Blvd in Austin (TX),Normal,Stray,,Unknown
+2 weeks,A728810,Cat,Domestic Shorthair Mix,Blue,2016-06-08T17:30:00.000,2016-06-08T17:30:00.000,8210 Chalk Knoll Drive in Austin (TX),Nursing,Stray,,Intact Male
+5 years,A738231,Dog,Dachshund Mix,Tricolor,2016-11-11T13:54:00.000,2016-11-11T13:54:00.000,10100 Wolftrap Dr in Austin (TX),Normal,Stray,Olive,Spayed Female
+6 years,A741062,Dog,American Bulldog Mix,White/Black,2016-12-27T15:41:00.000,2016-12-27T15:41:00.000,8413 S Fm 973 in Travis (TX),Normal,Stray,Cowboy,Intact Male
+2 years,A692109,Dog,German Shepherd Mix,Tricolor,2014-11-14T15:59:00.000,2014-11-14T15:59:00.000,Austin (TX),Normal,Owner Surrender,Ada,Intact Female
+1 month,A711229,Cat,Domestic Shorthair Mix,Brown Tabby,2015-09-04T09:57:00.000,2015-09-04T09:57:00.000,Springdale in Austin (TX),Normal,Stray,Ella,Intact Female
+1 year,A712578,Dog,Papillon Mix,White,2015-09-25T13:50:00.000,2015-09-25T13:50:00.000,Austin (TX),Normal,Owner Surrender,Lily,Spayed Female
+8 years,A741116,Cat,Domestic Shorthair Mix,Brown Tabby/White,2016-12-28T13:10:00.000,2016-12-28T13:10:00.000,Austin (TX),Normal,Owner Surrender,Sarge,Neutered Male
+1 year,A742314,Dog,Labrador Retriever/Beagle,Black,2017-01-22T11:29:00.000,2017-01-22T11:29:00.000,Austin (TX),Normal,Owner Surrender,Bearry,Neutered Male
+4 years,A684798,Dog,Chihuahua Shorthair Mix,Tricolor,2014-07-28T18:00:00.000,2014-07-28T18:00:00.000,Autumn Bay Dr And Montezuma St in Austin (TX),Normal,Stray,Lexi,Intact Female
+2 months,A756300,Cat,Domestic Shorthair Mix,Black/White,2017-08-17T12:22:00.000,2017-08-17T12:22:00.000,Austin (TX),Normal,Owner Surrender,Winston,Intact Male
+6 years,A685223,Dog,German Shepherd Mix,Black/Tan,2014-08-04T13:00:00.000,2014-08-04T13:00:00.000,Austin (TX),Normal,Owner Surrender,Hana,Intact Female
+1 month,A687473,Dog,Pit Bull Mix,Black,2014-09-05T10:00:00.000,2014-09-05T10:00:00.000,16403 Summit in Travis (TX),Sick,Stray,,Intact Male
+2 months,A688567,Cat,Domestic Shorthair Mix,Black,2014-09-20T16:16:00.000,2014-09-20T16:16:00.000,11936 Sunhillow Bend in Austin (TX),Normal,Stray,*Cooper,Intact Male
+1 month,A712173,Cat,Domestic Shorthair Mix,Black/White,2015-09-18T16:59:00.000,2015-09-18T16:59:00.000,7112 Apoloosa in Travis (TX),Normal,Stray,*Jackson,Intact Male
+6 months,A690875,Dog,Labrador Retriever/Border Collie,Black/White,2014-10-27T15:24:00.000,2014-10-27T15:24:00.000,183/Mlk in Austin (TX),Normal,Stray,Domino,Intact Female
+1 year,A758038,Dog,Siberian Husky Mix,Black/White,2017-09-10T14:05:00.000,2017-09-10T14:05:00.000,7100 Colony Park Drive in Austin (TX),Normal,Stray,,Intact Female
+3 years,A694101,Dog,Jack Russell Terrier Mix,Tricolor,2014-12-20T10:50:00.000,2014-12-20T10:50:00.000,5118 Heflin Ln in Austin (TX),Normal,Stray,Bella,Spayed Female
+1 month,A666762,Cat,Domestic Shorthair Mix,Black/White,2013-11-06T17:52:00.000,2013-11-06T17:52:00.000,Agua Vista/Buffalo Gap Rd in Lakeway (TX),Normal,Stray,*Sparrow,Neutered Male
+3 years,A691803,Dog,Toy Fox Terrier Mix,White/Black,2014-11-09T17:53:00.000,2014-11-09T17:53:00.000,1156 W Cesar Chavez St in Austin (TX),Normal,Stray,*Polly,Intact Female
+2 years,A695251,Cat,Domestic Shorthair Mix,Black,2015-01-12T11:03:00.000,2015-01-12T11:03:00.000,209 Schirra Place in Austin (TX),Normal,Stray,,Neutered Male
+2 months,A711896,Dog,Labrador Retriever/Rhod Ridgeback,Tan/White,2015-09-13T12:59:00.000,2015-09-13T12:59:00.000,Austin (TX),Normal,Owner Surrender,Canela,Intact Female
+3 years,A687800,Dog,Dachshund/Chihuahua Shorthair,White/Tan,2014-09-10T11:08:00.000,2014-09-10T11:08:00.000,3300 Killingsworth Ln. #307 in Pflugerville (TX),Normal,Owner Surrender,Kaden,Intact Male
+5 years,A664941,Dog,Pit Bull Mix,Red/White,2015-04-12T12:49:00.000,2015-04-12T12:49:00.000,Webberville Road & East 12Th Street in Austin (TX),Normal,Public Assist,Tequila,Spayed Female
+5 months,A682068,Cat,Domestic Shorthair Mix,Blue,2014-06-23T18:13:00.000,2014-06-23T18:13:00.000,Austin (TX),Normal,Owner Surrender,Greyworm,Intact Male
+1 year,A683808,Cat,Domestic Medium Hair Mix,Blue/White,2014-07-15T15:38:00.000,2014-07-15T15:38:00.000,Austin (TX),Normal,Owner Surrender,Tomtom,Intact Male
+2 weeks,A722194,Cat,Domestic Shorthair Mix,Lynx Point,2016-03-12T13:09:00.000,2016-03-12T13:09:00.000,2005 Bouldin in Austin (TX),Normal,Stray,,Intact Female
+1 year,A705377,Dog,Chihuahua Shorthair Mix,Tan/White,2015-06-16T14:38:00.000,2015-06-16T14:38:00.000,8000 Taza Ln in Travis (TX),Normal,Public Assist,Oso,Intact Male
+2 years,A730870,Dog,Shih Tzu,Black/White,2018-01-21T14:20:00.000,2018-01-21T14:20:00.000,East Slaughter And Bluff Springs in Austin (TX),Normal,Stray,Oreo,Intact Female
+2 months,A764949,Dog,Labrador Retriever Mix,White/Brown,2018-01-09T16:29:00.000,2018-01-09T16:29:00.000,West Dittmar And Dempsey Lane in Austin (TX),Normal,Stray,,Intact Male
+1 year,A721784,Other,Rabbit Sh Mix,Black/Tan,2016-03-04T12:14:00.000,2016-03-04T12:14:00.000,Braker Ln & Renel Dr in Austin (TX),Normal,Stray,,Intact Male
+1 month,A664887,Cat,Domestic Shorthair Mix,Black,2013-10-10T13:48:00.000,2013-10-10T13:48:00.000,1901 Onion Creek Pkwy in Austin (TX),Normal,Stray,*Gia,Intact Female
+1 year,A683331,Cat,Domestic Shorthair Mix,Blue Tabby,2014-07-09T12:58:00.000,2014-07-09T12:58:00.000,14811 Chicadee in Pflugerville (TX),Normal,Public Assist,,Intact Female
+2 years,A674012,Dog,Australian Cattle Dog,Blue Merle,2014-03-05T21:22:00.000,2014-03-05T21:22:00.000,2815 E 71 in Austin (TX),Normal,Stray,*Bill,Intact Male
+1 year,A746979,Dog,Chihuahua Shorthair Mix,Brown Brindle,2017-04-12T10:06:00.000,2017-04-12T10:06:00.000,7601 Daffan Ln in Austin (TX),Normal,Owner Surrender,Teddy,Intact Male
+2 years,A759430,Dog,Labrador Retriever Mix,Black/White,2017-10-20T12:33:00.000,2017-10-20T12:33:00.000,Austin (TX),Normal,Owner Surrender,*Whitney,Spayed Female
+2 years,A758651,Dog,Pit Bull Mix,Brown/White,2017-09-19T17:36:00.000,2017-09-19T17:36:00.000,Austin (TX),Normal,Stray,*Harmony,Spayed Female
+3 years,A748338,Dog,Dachshund Mix,Black/Tan,2017-05-03T14:10:00.000,2017-05-03T14:10:00.000,15100 Stave Oak Lane in Austin (TX),Normal,Public Assist,Mia,Intact Female
+1 month,A690816,Cat,Domestic Shorthair Mix,Brown Tabby/White,2014-10-26T14:37:00.000,2014-10-26T14:37:00.000,1901 W William Cannon Dr in Austin (TX),Normal,Stray,*Chrissie,Intact Female
+5 years,A726117,Dog,Rottweiler/German Shepherd,Black/Tan,2016-05-06T15:24:00.000,2016-05-06T15:24:00.000,6710 Arroyo Seco in Austin (TX),Normal,Stray,Margaret,Spayed Female
+4 weeks,A752120,Dog,Labrador Retriever Mix,Black,2017-06-18T12:59:00.000,2017-06-18T12:59:00.000,Barton Point Drive in Austin (TX),Normal,Stray,*Piggy,Intact Female
+1 year,A729374,Cat,Domestic Shorthair Mix,Brown Tabby,2017-05-03T12:00:00.000,2017-05-03T12:00:00.000,Austin (TX),Injured,Stray,*Velvet,Spayed Female
+1 year,A674023,Dog,Chihuahua Shorthair Mix,Red/White,2014-03-06T10:54:00.000,2014-03-06T10:54:00.000,8010 N Ih 35 in Austin (TX),Normal,Stray,Emma,Intact Female
+5 months,A732826,Cat,Domestic Shorthair Mix,Black,2016-08-13T14:22:00.000,2016-08-13T14:22:00.000,7619 Scenic Brook in Austin (TX),Sick,Public Assist,*Claressa,Intact Female
+3 years,A720321,Dog,Pit Bull Mix,Blue/White,2017-07-07T13:16:00.000,2017-07-07T13:16:00.000,Austin (TX),Normal,Public Assist,Haydee,Spayed Female
+1 month,A727451,Cat,Domestic Shorthair Mix,Black,2016-05-22T13:04:00.000,2016-05-22T13:04:00.000,6900 Old Bee Caves Rd in Austin (TX),Normal,Stray,*Sean,Intact Male
+11 months,A702482,Dog,Basenji/Australian Cattle Dog,Red/White,2015-05-14T12:47:00.000,2015-05-14T12:47:00.000,Mcneil Dr & San Felipe Blvd in Austin (TX),Normal,Stray,*Cosmo,Neutered Male
+2 years,A702501,Dog,Pit Bull/Boxer,Tan/White,2015-05-14T15:36:00.000,2015-05-14T15:36:00.000,6430 S Ih 35 Frontage Rd in Austin (TX),Normal,Stray,Phat Phat,Intact Female
+2 days,A728599,Cat,Domestic Shorthair Mix,Blue,2016-06-06T12:33:00.000,2016-06-06T12:33:00.000,2819 Foster Ln in Austin (TX),Normal,Stray,,Unknown
+8 months,A724243,Dog,Shih Tzu/Chihuahua Shorthair,White/Black,2016-04-14T15:10:00.000,2016-04-14T15:10:00.000,7807 Linden Road in Travis (TX),Normal,Stray,*Walker,Intact Male
+1 year,A726078,Other,Bat Mix,Brown,2016-05-05T19:38:00.000,2016-05-05T19:38:00.000,9509 Nightstar Dr in Del Valle (TX),Normal,Wildlife,,Unknown
+1 month,A707681,Cat,Domestic Shorthair Mix,Black,2015-07-16T11:05:00.000,2015-07-16T11:05:00.000,2906 Gem Circle in Austin (TX),Normal,Stray,*Dopey,Intact Male
+2 years,A705601,Dog,American Bulldog Mix,White/Tan,2015-06-19T13:49:00.000,2015-06-19T13:49:00.000,Merrilltown Dr And Noya Dr in Austin (TX),Normal,Stray,*Hank,Intact Male
+2 years,A728857,Cat,Domestic Shorthair Mix,Brown Tabby,2016-06-09T16:05:00.000,2016-06-09T16:05:00.000,Austin (TX),Normal,Stray,Tigger,Neutered Male
+2 months,A757879,Dog,Plott Hound Mix,Black Brindle,2017-09-07T17:20:00.000,2017-09-07T17:20:00.000,8507 Bluff Springs Rd in Austin (TX),Normal,Stray,*Dallas,Intact Female
+1 year,A744408,Cat,Domestic Shorthair Mix,Black/White,2017-02-28T13:09:00.000,2017-02-28T13:09:00.000,5117  North Lamar Blvd in Austin (TX),Normal,Stray,,Neutered Male
+3 months,A665800,Cat,Domestic Shorthair Mix,Tortie,2013-10-23T11:08:00.000,2013-10-23T11:08:00.000,Austin (TX),Normal,Owner Surrender,*Precious,Intact Female
+7 years,A750594,Dog,Shih Tzu Mix,Cream/Black,2017-05-29T13:04:00.000,2017-05-29T13:04:00.000,Briarton Dr And Thaxton Rd in Austin (TX),Normal,Stray,Gigi,Intact Female
+7 years,A757675,Dog,Miniature Schnauzer,Gray,2017-09-06T12:31:00.000,2017-09-06T12:31:00.000,Austin (TX),Normal,Public Assist,Bauer,Neutered Male
+1 year,A676116,Cat,Domestic Shorthair Mix,Brown Tabby/White,2014-04-04T16:55:00.000,2014-04-04T16:55:00.000,Hunnington Meadows in Austin (TX),Normal,Stray,*Girly,Intact Female
+2 years,A758780,Dog,Rat Terrier Mix,Black/White,2017-09-21T17:13:00.000,2017-09-21T17:13:00.000,400 West Anderson in Austin (TX),Normal,Stray,Tilly,Intact Female
+3 years,A738040,Dog,German Shepherd Mix,Tan/White,2016-11-08T17:38:00.000,2016-11-08T17:38:00.000,Austin (TX),Normal,Public Assist,Coda,Spayed Female
+6 years,A732105,Dog,German Shepherd Mix,Black/Tan,2016-08-07T13:18:00.000,2016-08-07T13:18:00.000,Outside Jurisdiction,Normal,Owner Surrender,Willa,Spayed Female
+8 months,A762803,Dog,Labrador Retriever/Pointer,White/Black,2017-11-27T16:24:00.000,2017-11-27T16:24:00.000,6118 Fairway Street in Austin (TX),Normal,Stray,,Intact Male
+2 years,A744621,Cat,Domestic Shorthair Mix,Black,2017-03-04T12:13:00.000,2017-03-04T12:13:00.000,2520 Elmont Dr in Austin (TX),Normal,Stray,Stella,Spayed Female
+1 year,A713234,Dog,Pit Bull Mix,Blue Cream/White,2016-05-05T17:21:00.000,2016-05-05T17:21:00.000,4106 N Lamar Blvd in Austin (TX),Normal,Stray,Cobes,Spayed Female
+8 years,A739237,Dog,Beagle Mix,Tricolor,2016-11-29T15:22:00.000,2016-11-29T15:22:00.000,11609 Raymond C. Ewry in Austin (TX),Aged,Public Assist,Little Bit,Spayed Female
+2 months,A694335,Cat,Domestic Shorthair Mix,Black/White,2014-12-26T11:39:00.000,2014-12-26T11:39:00.000,6900 Geneva in Austin (TX),Injured,Stray,,Intact Male
+7 months,A759449,Dog,Pit Bull Mix,Red/White,2017-10-02T10:08:00.000,2017-10-02T10:08:00.000,Merrilltown Drive And Mopac Expressway in Austin (TX),Normal,Stray,*Shelby,Intact Male
+1 month,A749619,Cat,Domestic Shorthair Mix,Blue/White,2017-05-17T11:33:00.000,2017-05-17T11:33:00.000,1209 Rosewood Ave in Austin (TX),Normal,Stray,*Greyson,Intact Male
+2 years,A764450,Dog,Labrador Retriever Mix,Black/Black,2017-12-30T13:04:00.000,2017-12-30T13:04:00.000,Garcreek Circle And Riverstone Drive in Austin (TX),Normal,Stray,Cake,Intact Female
+2 months,A767244,Dog,Border Collie Mix,Black/White,2018-02-25T16:17:00.000,2018-02-25T16:17:00.000,East 7Th Street in Austin (TX),Normal,Stray,Cooper,Intact Male
+3 weeks,A712231,Cat,Siamese Mix,Lynx Point,2015-09-19T14:11:00.000,2015-09-19T14:11:00.000,7205 E Meadow Bend in Austin (TX),Normal,Stray,*Juniper,Intact Female
+2 years,A754171,Dog,Miniature Pinscher/Yorkshire Terrier,Black/Brown,2017-07-16T18:22:00.000,2017-07-16T18:22:00.000,7112 Ed Bluestein Blvd in Austin (TX),Normal,Public Assist,Tramp,Intact Male
+7 years,A668300,Cat,Domestic Shorthair Mix,Black/White,2013-12-01T15:10:00.000,2013-12-01T15:10:00.000,Westgate And Towering Oaks in Austin (TX),Sick,Stray,,Neutered Male
+1 weeks,A710651,Cat,Domestic Shorthair Mix,Blue Tabby,2015-08-25T17:19:00.000,2015-08-25T17:19:00.000,1156 W Cesar Chavez in Austin (TX),Normal,Stray,,Intact Male
+1 year,A755283,Other,Bat Mix,Brown,2017-07-31T20:06:00.000,2017-07-31T20:06:00.000,7330 Bluff Springs in Austin (TX),Normal,Wildlife,,Unknown
+1 year,A680289,Cat,Domestic Shorthair Mix,Calico,2014-06-01T11:08:00.000,2014-06-01T11:08:00.000,1128 Spur St in Austin (TX),Normal,Stray,,Spayed Female
+2 months,A742601,Cat,Domestic Shorthair Mix,Black,2017-01-24T18:41:00.000,2017-01-24T18:41:00.000,Austin (TX),Normal,Owner Surrender,,Intact Female
+8 months,A763638,Other,Cinnamon,Gray,2017-12-12T15:24:00.000,2017-12-12T15:24:00.000,Austin (TX),Normal,Owner Surrender,Kiwi,Intact Female
+1 month,A748192,Cat,Domestic Shorthair Mix,Black/White,2017-04-30T15:34:00.000,2017-04-30T15:34:00.000,12001 Metric Blvd in Austin (TX),Normal,Stray,*Finnegan,Intact Male
+5 months,A745757,Dog,Rhod Ridgeback/Labrador Retriever,Red/Black,2017-03-23T13:09:00.000,2017-03-23T13:09:00.000,6707 Point North in Austin (TX),Normal,Stray,Dexter,Intact Male
+1 weeks,A705706,Cat,Domestic Shorthair Mix,Orange Tabby,2015-06-28T20:06:00.000,2015-06-28T20:06:00.000,1156 W. Cesar Chavez in Austin (TX),Normal,Public Assist,,Intact Male
+0 years,A719808,Dog,Queensland Heeler Mix,Buff,2016-01-28T11:56:00.000,2016-01-28T11:56:00.000,11819 Edward St in Travis (TX),Normal,Stray,Riggs,Intact Male
+3 months,A684037,Cat,Domestic Shorthair Mix,White/Brown Tabby,2014-07-18T15:32:00.000,2014-07-18T15:32:00.000,6612 Hondo Bend in Austin (TX),Normal,Stray,,Intact Female
+1 month,A751945,Cat,Domestic Shorthair Mix,Brown Tabby,2017-06-15T16:39:00.000,2017-06-15T16:39:00.000,14704 Alps Drive in Travis (TX),Normal,Stray,*Harrier,Intact Male
+0 years,A751357,Cat,Domestic Shorthair Mix,Brown Tabby,2017-06-07T10:52:00.000,2017-06-07T10:52:00.000,1000 San Marcos St in Austin (TX),Normal,Stray,,Unknown
+0 years,A750324,Cat,Domestic Shorthair Mix,Blue,2017-05-25T16:58:00.000,2017-05-25T16:58:00.000,1607 Future Dr in Austin (TX),Normal,Stray,,Unknown
+1 year,A732145,Cat,Domestic Shorthair Mix,Black/White,2016-08-03T11:14:00.000,2016-08-03T11:14:00.000,6201 Wing Feather Dr in Austin (TX),Normal,Stray,,Intact Female
+2 years,A750777,Dog,Rat Terrier Mix,White/Black,2017-06-04T16:07:00.000,2017-06-04T16:07:00.000,4125 Saldelia Trl in Austin (TX),Normal,Public Assist,Jj,Intact Male
+2 months,A749812,Dog,Labrador Retriever Mix,Black,2017-05-19T19:00:00.000,2017-05-19T19:00:00.000,7400 Us-290 in Austin (TX),Normal,Public Assist,,Intact Female
+2 months,A689969,Cat,Domestic Shorthair Mix,Calico,2014-10-12T11:26:00.000,2014-10-12T11:26:00.000,2008 Alexander Ave in Austin (TX),Normal,Stray,Paprika,Intact Female
+4 months,A675319,Dog,Mastiff/Rottweiler,Red/White,2014-03-26T11:20:00.000,2014-03-26T11:20:00.000,Wolf Ln And 71 in Travis (TX),Normal,Stray,,Intact Male
+5 months,A705868,Dog,Golden Retriever Mix,Red,2015-06-22T12:11:00.000,2015-06-22T12:11:00.000,22009 Hogeye Rd in Austin (TX),Normal,Stray,Izzy,Intact Male
+2 years,A675509,Dog,Pit Bull Mix,Chocolate,2014-03-28T14:22:00.000,2014-03-28T14:22:00.000,14400 Harris Ridge Blvd in Travis (TX),Normal,Stray,*Dwight,Intact Male
+1 month,A759775,Dog,Border Collie Mix,White/Black,2017-10-07T12:38:00.000,2017-10-07T12:38:00.000,1620 Old Lockhart Road in Travis (TX),Normal,Stray,Scout,Intact Male
+10 years,A671864,Dog,Golden Retriever Mix,Gold/White,2014-01-31T14:09:00.000,2014-01-31T14:09:00.000,Park At The Woodlands Dr & Quick Stream in Austin (TX),Normal,Stray,Krash,Neutered Male
+1 year,A675255,Dog,German Shepherd,Black/Buff,2014-03-25T15:48:00.000,2014-03-25T15:48:00.000,5201 Ross Rd in Del Valle (TX),Normal,Stray,Sandy,Intact Female
+7 months,A702056,Dog,Border Collie Mix,Black/White,2015-05-08T15:20:00.000,2015-05-08T15:20:00.000,Turnstone And Pleasant Valley in Austin (TX),Normal,Stray,Monty,Intact Male
+2 months,A689474,Dog,Dachshund Wirehair/Border Terrier,Brown,2014-10-04T14:00:00.000,2014-10-04T14:00:00.000,Hwy 183 And Duval Rd in Austin (TX),Normal,Stray,,Intact Male
+3 years,A718538,Dog,Irish Wolfhound Mix,Tan/Brown,2016-01-01T16:50:00.000,2016-01-01T16:50:00.000,1601 Miriam Ave in Austin (TX),Normal,Stray,Dollar,Intact Male
+9 years,A738277,Dog,Chihuahua Shorthair Mix,Tan,2016-11-12T10:55:00.000,2016-11-12T10:55:00.000,4411 Whispering Valley in Austin (TX),Normal,Public Assist,Paco,Neutered Male
+2 years,A738506,Cat,Domestic Shorthair Mix,Tortie,2016-11-16T14:18:00.000,2016-11-16T14:18:00.000,Pflugerville (TX),Normal,Owner Surrender,Momma,Intact Female
+5 years,A764599,Dog,Labrador Retriever Mix,White/Tan,2018-01-01T12:04:00.000,2018-01-01T12:04:00.000,10506 Barr Ln in Travis (TX),Normal,Public Assist,Andy,Spayed Female
+2 months,A753509,Cat,Domestic Medium Hair Mix,Brown Tabby/White,2017-07-07T15:04:00.000,2017-07-07T15:04:00.000,133 West Saint Elmo Road in Austin (TX),Normal,Stray,Pepper,Intact Female
+3 years,A721336,Dog,Chihuahua Shorthair Mix,Brown,2016-02-24T18:30:00.000,2016-02-24T18:30:00.000,6500 E William Cannon Dr in Austin (TX),Normal,Stray,Jb,Neutered Male
+5 years,A669310,Dog,German Shepherd Mix,Brown/Black,2016-04-15T10:33:00.000,2016-04-15T10:33:00.000,6808 Montana St in Austin (TX),Normal,Public Assist,Dina,Intact Female
+3 weeks,A735630,Cat,Domestic Medium Hair Mix,Blue Tabby,2016-09-26T16:20:00.000,2016-09-26T16:20:00.000,12508 Esplanade St in Austin (TX),Normal,Stray,,Unknown
+4 years,A698351,Cat,Domestic Shorthair Mix,Brown Tabby,2015-03-10T13:57:00.000,2015-03-10T13:57:00.000,Austin (TX),Normal,Owner Surrender,Amy,Spayed Female
+9 years,A590330,Dog,Australian Cattle Dog Mix,Black/Blue,2014-03-14T02:56:00.000,2014-03-14T02:56:00.000,14707 Noya Dr in Travis (TX),Injured,Public Assist,Donut,Spayed Female
+9 years,A695626,Dog,Labrador Retriever Mix,Black,2016-12-10T15:44:00.000,2016-12-10T15:44:00.000,E Riverside Dr & S Pleasant Valley Rd in Austin (TX),Normal,Stray,*Jenny,Spayed Female
+10 years,A672187,Dog,Miniature Schnauzer Mix,Silver,2014-04-11T13:08:00.000,2014-04-11T13:08:00.000,Austin (TX),Normal,Owner Surrender,Gracie,Spayed Female
+1 year,A704396,Dog,Chihuahua Shorthair Mix,Tan,2015-06-04T12:36:00.000,2015-06-04T12:36:00.000,Netleaf Rd And Mossycup Ln in Austin (TX),Normal,Stray,Chico,Intact Male
+1 month,A756356,Cat,Domestic Shorthair Mix,Brown,2017-08-18T11:34:00.000,2017-08-18T11:34:00.000,Austin (TX),Normal,Stray,,Intact Female
+1 year,A733333,Dog,Labrador Retriever Mix,White,2016-08-20T13:14:00.000,2016-08-20T13:14:00.000,116 E Parsons St in Austin (TX),Normal,Stray,Dallas,Intact Male
+10 years,A559953,Dog,Labrador Retriever Mix,Black,2015-07-20T11:11:00.000,2015-07-20T11:11:00.000,1414 Gorham Street in Austin (TX),Normal,Stray,Midnight,Spayed Female
+1 year,A734095,Dog,Labrador Retriever/German Shepherd,Brown/White,2016-09-01T12:53:00.000,2016-09-01T12:53:00.000,19304 Black Manor Rd in Travis (TX),Normal,Stray,*Cinnamon,Intact Female
+1 month,A692585,Cat,Domestic Medium Hair Mix,Orange Tabby,2014-11-23T11:02:00.000,2014-11-23T11:02:00.000,1803 E Anderson Ln in Austin (TX),Normal,Stray,,Intact Male
+3 weeks,A761350,Cat,Domestic Shorthair Mix,Brown Tabby/White,2017-11-03T11:01:00.000,2017-11-03T11:01:00.000,5404 China Berry in Austin (TX),Normal,Stray,,Unknown
+1 month,A728737,Dog,Wire Hair Fox Terrier Mix,White/Brown,2016-06-07T17:51:00.000,2016-06-07T17:51:00.000,5906 Melody Ln in Austin (TX),Injured,Stray,,Intact Male
+1 year,A764057,Dog,Australian Cattle Dog/Rhod Ridgeback,Tan/Black,2017-12-20T17:31:00.000,2017-12-20T17:31:00.000,11215 Research Boulevard in Austin (TX),Normal,Stray,*Darla,Intact Female
+0 years,A752326,Cat,Domestic Shorthair Mix,Cream Tabby,2017-06-20T11:35:00.000,2017-06-20T11:35:00.000,9601 Middle Fiskville in Austin (TX),Normal,Stray,,Intact Male
+2 years,A761366,Dog,German Shepherd Mix,Brown/Black,2017-11-03T13:14:00.000,2017-11-03T13:14:00.000,7610 Cameron Road #2110 in Austin (TX),Normal,Public Assist,Kadee,Spayed Female
+5 years,A730668,Dog,Chihuahua Shorthair Mix,Tan,2016-07-08T11:48:00.000,2016-07-08T11:48:00.000,7201 Levander Loop in Austin (TX),Normal,Stray,*Penelope,Intact Female
+3 years,A763394,Dog,Pit Bull Mix,Black/White,2017-12-09T12:30:00.000,2017-12-09T12:30:00.000,Chaparral Trail And Palo Blanco Lane in Austin (TX),Normal,Stray,Stitch,Intact Male
+2 years,A753390,Dog,Chihuahua Longhair/Dachshund Wirehair,Black,2017-07-05T16:54:00.000,2017-07-05T16:54:00.000,21707 Hog Eye Dr in Manor (TX),Normal,Public Assist,L.D.,Intact Male
+1 year,A671114,Dog,Border Collie Mix,Gold/White,2014-01-18T14:33:00.000,2014-01-18T14:33:00.000,Loyola Ln And Decker Ln in Austin (TX),Normal,Stray,Buster G,Intact Male
+1 day,A702329,Cat,Domestic Shorthair Mix,White,2015-05-12T12:54:00.000,2015-05-12T12:54:00.000,7004 Shannon Dr in Austin (TX),Normal,Stray,,Unknown
+5 years,A704514,Dog,Labrador Retriever Mix,Black/White,2015-06-05T17:11:00.000,2015-06-05T17:11:00.000,5525 Foxfield Ln in Travis (TX),Normal,Stray,*Java,Spayed Female
+2 weeks,A701907,Cat,Domestic Shorthair Mix,Orange Tabby,2015-05-06T11:05:00.000,2015-05-06T11:05:00.000,3308 Thompson St in Austin (TX),Normal,Stray,,Intact Male
+1 year,A714106,Dog,Pit Bull Mix,White/Brown,2015-10-18T11:03:00.000,2015-10-18T11:03:00.000,183/Mlk in Travis (TX),Normal,Stray,*Nexus,Intact Male
+10 months,A694904,Dog,Norfolk Terrier Mix,Tan/White,2015-03-07T11:41:00.000,2015-03-07T11:41:00.000,Austin (TX),Normal,Owner Surrender,*Tanner,Neutered Male
+1 year,A719632,Dog,Dachshund Mix,White/Brown,2016-01-24T11:36:00.000,2016-01-24T11:36:00.000,Anderson Ln And Burnet Rd in Austin (TX),Normal,Stray,Freckles,Intact Male
+2 years,A721262,Dog,Italian Greyhound Mix,Brown/White,2016-02-24T11:10:00.000,2016-02-24T11:10:00.000,Del Valle (TX),Normal,Owner Surrender,Reyna,Spayed Female
+1 year,A728229,Dog,Boxer Mix,Brown Brindle,2016-06-01T12:42:00.000,2016-06-01T12:42:00.000,13908 Tophill Cir in Travis (TX),Normal,Stray,Landan,Neutered Male
+6 years,A736828,Dog,Labrador Retriever Mix,Black/White,2016-10-17T21:21:00.000,2016-10-17T21:21:00.000,105 W Elliott in Austin (TX),Normal,Stray,Matie,Spayed Female
+1 year,A731502,Dog,Catahoula Mix,Tan/White,2016-08-14T16:10:00.000,2016-08-14T16:10:00.000,Manor (TX),Normal,Owner Surrender,Murphy,Neutered Male
+3 years,A703414,Dog,Boston Terrier,Black/White,2016-02-27T11:05:00.000,2016-02-27T11:05:00.000,Highway 183 And Ih-35 in Austin (TX),Normal,Stray,Sundae,Spayed Female
+5 days,A701868,Other,Opossum,Gray,2015-05-05T14:55:00.000,2015-05-05T14:55:00.000,1398 Harris Ridge Blvd in Austin (TX),Normal,Wildlife,,Unknown
+1 month,A736450,Dog,Labrador Retriever Mix,Black/White,2016-10-10T18:38:00.000,2016-10-10T18:38:00.000,1715 W Cesar Chavez St in Austin (TX),Normal,Stray,,Intact Female
+2 years,A721862,Dog,Labrador Retriever Mix,Black,2016-03-06T11:00:00.000,2016-03-06T11:00:00.000,5601 Manchaca Rd in Austin (TX),Normal,Stray,*Moose,Neutered Male
+1 month,A753601,Dog,Dachshund/Cardigan Welsh Corgi,White/Tan,2017-07-08T14:51:00.000,2017-07-08T14:51:00.000,Conestoga And Ponciana in Austin (TX),Normal,Stray,Sammi,Intact Male
+6 years,A759957,Dog,Catahoula Mix,Tricolor/White,2017-10-10T13:47:00.000,2017-10-10T13:47:00.000,Austin (TX),Normal,Owner Surrender,Clara,Spayed Female
+1 year,A717067,Dog,Cardigan Welsh Corgi Mix,Yellow,2015-12-01T13:09:00.000,2015-12-01T13:09:00.000,Willow St And Chicon St in Austin (TX),Normal,Stray,Pretzel,Intact Female
+7 years,A697303,Cat,Domestic Shorthair Mix,White/Black,2015-02-21T12:30:00.000,2015-02-21T12:30:00.000,Austin (TX),Normal,Owner Surrender,Zorra,Spayed Female
+2 weeks,A749502,Cat,Domestic Shorthair Mix,Blue Tabby,2017-05-15T18:24:00.000,2017-05-15T18:24:00.000,120 Maldonado Trl in Travis (TX),Normal,Stray,,Unknown
+3 years,A695799,Dog,Pit Bull Mix,White/Brown Brindle,2015-01-23T12:13:00.000,2015-01-23T12:13:00.000,Austin (TX),Normal,Owner Surrender,Minion,Neutered Male
+11 years,A517675,Dog,Australian Cattle Dog,White/Black,2015-08-05T15:57:00.000,2015-08-05T15:57:00.000,6902 Deep Cir #A in Austin (TX),Normal,Owner Surrender,Blanca,Spayed Female
+5 days,A746787,Cat,Domestic Shorthair Mix,White,2017-04-09T07:45:00.000,2017-04-09T07:45:00.000,1003 Mckie Dr in Austin (TX),Nursing,Stray,,Intact Male
+9 months,A758769,Cat,Domestic Shorthair Mix,Black Smoke/White,2017-09-22T16:19:00.000,2017-09-22T16:19:00.000,3007 Shoot Out in Travis (TX),Normal,Stray,Shelby,Spayed Female
+7 years,A720961,Cat,Domestic Medium Hair Mix,Calico,2016-02-18T13:30:00.000,2016-02-18T13:30:00.000,Austin (TX),Normal,Stray,Precious,Spayed Female
+2 years,A692518,Dog,Pit Bull Mix,Blue/White,2014-11-21T16:24:00.000,2014-11-21T16:24:00.000,4106 N Lamar Blvd in Austin (TX),Normal,Stray,,Intact Female
+6 years,A554047,Dog,Pit Bull Mix,Brown/White,2016-05-26T16:33:00.000,2016-05-26T16:33:00.000,3100 Rogge in Austin (TX),Normal,Stray,Mega,Neutered Male
+5 years,A688710,Dog,Chihuahua Longhair Mix,Tan/White,2014-09-22T16:30:00.000,2014-09-22T16:30:00.000,1211 Bonnie Brae in Austin (TX),Normal,Stray,Guerro,Neutered Male
+6 months,A759869,Cat,American Shorthair Mix,Gray Tabby/Black,2017-10-08T17:01:00.000,2017-10-08T17:01:00.000,General Williamson And Geronimo Trail in Austin (TX),Normal,Stray,,Intact Male
+1 year,A745842,Dog,Labrador Retriever Mix,Black/White,2017-03-25T11:04:00.000,2017-03-25T11:04:00.000,5701 Johnny Morris Rd in Austin (TX),Normal,Stray,*Cali,Intact Female
+3 years,A738181,Cat,Domestic Shorthair Mix,Tortie,2017-02-28T17:01:00.000,2017-02-28T17:01:00.000,Austin (TX),Normal,Owner Surrender,*Lynnette,Spayed Female
+9 years,A725081,Dog,German Shepherd Mix,Black/Brown,2016-04-25T17:14:00.000,2016-04-25T17:14:00.000,Brodie Ln & Green Emerald Terrace in Austin (TX),Normal,Stray,Sophie,Spayed Female
+15 years,A717086,Dog,Smooth Fox Terrier Mix,Blue Merle/White,2015-12-01T18:35:00.000,2015-12-01T18:35:00.000,10000 N Lamar Blvd in Austin (TX),Normal,Stray,Kip,Spayed Female
+1 year,A734264,Other,Bat Mix,Red,2016-09-03T15:11:00.000,2016-09-03T15:11:00.000,10000 Research Blvd in Austin (TX),Normal,Wildlife,,Unknown
+4 months,A665763,Dog,Cairn Terrier Mix,Tan/White,2013-10-22T15:10:00.000,2013-10-22T15:10:00.000,E Riverside Dr/Royal Crest Dr in Austin (TX),Normal,Stray,,Intact Male
+4 weeks,A761425,Cat,Domestic Medium Hair Mix,Blue/White,2017-11-04T14:07:00.000,2017-11-04T14:07:00.000,11904 Garden Gate in Austin (TX),Normal,Stray,*Sassy,Intact Female
+3 months,A711073,Cat,Domestic Shorthair Mix,White/Black,2015-09-12T15:50:00.000,2015-09-12T15:50:00.000,Travis (TX),Normal,Owner Surrender,*Lalo,Neutered Male
+4 weeks,A677471,Cat,Domestic Shorthair Mix,Brown Tabby/White,2014-04-25T13:10:00.000,2014-04-25T13:10:00.000,11603 Gungrove Circle in Austin (TX),Normal,Stray,*Sage,Intact Male
+5 months,A758257,Other,Dutch/Angora-Satin,Black/White,2017-09-13T12:29:00.000,2017-09-13T12:29:00.000,Austin (TX),Normal,Owner Surrender,*Cosmo,Intact Male
+2 years,A763536,Dog,Labrador Retriever Mix,Black,2017-12-10T11:54:00.000,2017-12-10T11:54:00.000,Austin (TX),Normal,Owner Surrender,Black,Neutered Male
+10 months,A736729,Dog,Labrador Retriever Mix,Cream/White,2016-10-16T11:55:00.000,2016-10-16T11:55:00.000,Loyola Ln And Sandshof Dr in Austin (TX),Normal,Stray,Snow,Intact Female
+10 years,A689627,Dog,Labrador Retriever Mix,Tan,2014-10-07T12:20:00.000,2014-10-07T12:20:00.000,3755 B S Cap Texas Hwy in Austin (TX),Normal,Stray,*Jeb,Neutered Male
+2 years,A674489,Dog,Pit Bull Mix,Black/White,2014-05-06T11:32:00.000,2014-05-06T11:32:00.000,Austin (TX),Normal,Owner Surrender,Boo,Intact Female
+1 year,A754545,Dog,Labrador Retriever/Pit Bull,Black/White,2018-03-14T18:54:00.000,2018-03-14T18:54:00.000,Thaxton Road in Austin (TX),Normal,Stray,Lucky,Intact Male
+4 months,A707794,Dog,Labrador Retriever Mix,Brown,2015-07-18T09:48:00.000,2015-07-18T09:48:00.000,Tammye in Travis (TX),Injured,Stray,,Intact Female
+6 years,A680679,Dog,Chihuahua Shorthair Mix,White/Brown,2014-06-05T18:15:00.000,2014-06-05T18:15:00.000,Rundberg And N Lamar in Austin (TX),Normal,Stray,Penny,Spayed Female
+10 months,A734013,Dog,Shetland Sheepdog Mix,Sable,2016-08-31T11:23:00.000,2016-08-31T11:23:00.000,21312 Greenridge Terrace in Austin (TX),Normal,Stray,Simba,Intact Male
+6 years,A670075,Cat,Maine Coon Mix,Brown Tabby,2014-01-01T15:54:00.000,2014-01-01T15:54:00.000,1101 E Parmer Ln #207 in Travis (TX),Normal,Owner Surrender,Cat,Spayed Female
+2 years,A720698,Dog,American Bulldog Mix,White,2017-01-23T09:57:00.000,2017-01-23T09:57:00.000,5102 Two Iron St in Austin (TX),Normal,Stray,Snow,Intact Male
+1 year,A718918,Other,Rabbit Sh Mix,Black/White,2016-01-09T12:41:00.000,2016-01-09T12:41:00.000,Austin (TX),Normal,Owner Surrender,,Unknown
+4 weeks,A730594,Bird,Pigeon Mix,Brown,2016-07-07T11:46:00.000,2016-07-07T11:46:00.000,Pleasant Valley And Webberville in Austin (TX),Normal,Stray,,Unknown
+7 years,A735212,Dog,Siberian Husky Mix,Black/Tan,2016-09-20T18:42:00.000,2016-09-20T18:42:00.000,8403 Los Ranchos Dr in Austin (TX),Normal,Stray,Lycha,Spayed Female
+2 years,A690923,Dog,Labrador Retriever Mix,Black,2014-10-28T10:42:00.000,2014-10-28T10:42:00.000,5710 Reicher Dr in Austin (TX),Normal,Stray,Riley,Intact Female
+1 month,A704918,Cat,Domestic Shorthair Mix,Brown Tabby,2015-06-10T18:09:00.000,2015-06-10T18:09:00.000,8308 Flaxen Dr in Austin (TX),Normal,Stray,*Emma,Intact Female
+2 weeks,A713011,Cat,Domestic Shorthair Mix,Brown Tabby/White,2015-10-01T14:48:00.000,2015-10-01T14:48:00.000,1139 Ebert in Austin (TX),Normal,Stray,,Intact Male
+3 years,A680733,Dog,German Shepherd/Australian Cattle Dog,Black/Brown,2014-06-06T18:57:00.000,2014-06-06T18:57:00.000,Hwy 290 And Fm 973 in Manor (TX),Normal,Stray,*Aster,Intact Female
+4 weeks,A706316,Cat,Domestic Shorthair Mix,Black,2015-06-27T13:34:00.000,2015-06-27T13:34:00.000,10004 Shively Lane in Austin (TX),Normal,Stray,*Jupiter,Intact Male
+3 years,A698345,Other,Bat Mix,Brown,2015-03-10T13:44:00.000,2015-03-10T13:44:00.000,2504 New York in Austin (TX),Normal,Wildlife,,Unknown
+2 years,A683086,Dog,Australian Kelpie Mix,Black/Brown,2014-07-07T08:03:00.000,2014-07-07T08:03:00.000,11313 Blairwood in Austin (TX),Normal,Stray,*Mini Cooper,Intact Female
+2 years,A763708,Cat,Domestic Longhair Mix,Black,2017-12-14T14:48:00.000,2017-12-14T14:48:00.000,Austin (TX),Normal,Owner Surrender,Negra,Spayed Female
+3 years,A735718,Dog,Pit Bull/Labrador Retriever,Brown Brindle/White,2016-09-27T19:09:00.000,2016-09-27T19:09:00.000,6207 Dorchester Dr in Austin (TX),Normal,Stray,*Benny,Intact Male
+1 year,A747800,Cat,Domestic Shorthair Mix,Blue Tabby,2017-04-25T09:04:00.000,2017-04-25T09:04:00.000,Travis (TX),Normal,Owner Surrender,*Mackeral,Neutered Male
+1 month,A754988,Dog,German Shepherd/Labrador Retriever,Tan/Black,2017-07-27T14:54:00.000,2017-07-27T14:54:00.000,5801 Signal Point Blvd in Austin (TX),Normal,Owner Surrender,*Scout,Intact Male
+15 years,A712711,Dog,Chihuahua Shorthair Mix,Black/White,2015-09-27T10:45:00.000,2015-09-27T10:45:00.000,Point N Dr & Arctic Ct in Austin (TX),Normal,Stray,Mikal,Neutered Male
+5 years,A623101,Dog,Presa Canario Mix,Blue Tiger/White,2014-09-23T13:28:00.000,2014-09-23T13:28:00.000,7404 Inspiration in Austin (TX),Normal,Stray,Cowboy,Neutered Male
+1 year,A645345,Dog,Pit Bull Mix,Brown/White,2013-10-01T17:54:00.000,2013-10-01T17:54:00.000,Austin (TX),Normal,Owner Surrender,Honey,Spayed Female
+1 year,A741873,Cat,Domestic Shorthair Mix,Brown Tabby/White,2017-01-10T18:15:00.000,2017-01-10T18:15:00.000,2110 Thrasher Lane in Austin (TX),Normal,Stray,,Intact Male
+1 year,A669245,Dog,Boxer Mix,Black/White,2013-12-30T19:28:00.000,2013-12-30T19:28:00.000,Austin (TX),Sick,Owner Surrender,Bo,Spayed Female
+4 weeks,A709263,Cat,Domestic Shorthair Mix,Brown Tabby,2015-08-06T15:59:00.000,2015-08-06T15:59:00.000,600 W William Cannon Dr in Austin (TX),Normal,Stray,*Piper,Intact Female
+1 month,A684783,Cat,Domestic Shorthair Mix,Seal Point/White,2014-07-28T15:38:00.000,2014-07-28T15:38:00.000,2100 Barton Springs in Austin (TX),Normal,Stray,Snow Ball,Intact Male
+1 month,A717905,Dog,Chesa Bay Retr Mix,Black,2015-12-17T14:20:00.000,2015-12-17T14:20:00.000,11717 Schriber Rd in Travis (TX),Normal,Stray,,Intact Male
+9 years,A683044,Dog,Chihuahua Longhair Mix,Brown Brindle/White,2014-07-06T13:25:00.000,2014-07-06T13:25:00.000,Scofield And Meehan in Austin (TX),Normal,Stray,Saki,Neutered Male
+6 months,A693348,Dog,German Shorthair Pointer Mix,White/Tan,2014-12-06T11:39:00.000,2014-12-06T11:39:00.000,183/Mlk in Austin (TX),Normal,Stray,*Griffin,Intact Male
+1 month,A762273,Cat,Domestic Shorthair Mix,Tortie,2017-11-17T11:26:00.000,2017-11-17T11:26:00.000,14906 Zurick Drive in Del Valle (TX),Normal,Stray,,Intact Female
+1 year,A700008,Cat,Domestic Shorthair Mix,Blue Tabby,2015-04-06T12:30:00.000,2015-04-06T12:30:00.000,2205 Voyageurs in Austin (TX),Nursing,Stray,,Intact Female
+5 months,A700807,Other,Bat,Brown,2015-04-19T21:33:00.000,2015-04-19T21:33:00.000,11106 Laurel Creek Cir in Austin (TX),Normal,Wildlife,,Unknown
+2 years,A712942,Dog,American Bulldog Mix,Black/White,2015-11-06T11:05:00.000,2015-11-06T11:05:00.000,Outside Jurisdiction,Normal,Owner Surrender,Pete,Neutered Male
+2 years,A693537,Dog,Papillon Mix,Black/White,2014-12-10T10:25:00.000,2014-12-10T10:25:00.000,3600 Abbate in Austin (TX),Normal,Stray,Tux,Intact Male
+1 month,A764257,Dog,Chihuahua Shorthair Mix,White/Buff,2017-12-26T14:56:00.000,2017-12-26T14:56:00.000,Del Valle (TX),Normal,Owner Surrender,,Intact Female
+1 month,A751382,Dog,Labrador Retriever Mix,Tan/Brown,2017-06-07T15:04:00.000,2017-06-07T15:04:00.000,1156 W Cesar Chavez St in Austin (TX),Normal,Stray,Thor,Intact Male
+2 years,A743396,Dog,Labrador Retriever Mix,Red/White,2017-02-09T16:15:00.000,2017-02-09T16:15:00.000,E 12Th St And Springdale Rd in Austin (TX),Normal,Stray,*Turk,Neutered Male
+1 year,A723561,Dog,Australian Cattle Dog Mix,Brown/White,2016-04-03T16:27:00.000,2016-04-03T16:27:00.000,1006 Banister Ln in Austin (TX),Normal,Stray,*Harley,Intact Female
+2 months,A756307,Cat,Domestic Shorthair Mix,Torbie,2017-08-17T12:17:00.000,2017-08-17T12:17:00.000,Austin (TX),Normal,Owner Surrender,Nina,Intact Female
+6 years,A663798,Dog,Labrador Retriever Mix,Yellow,2013-12-09T14:12:00.000,2013-12-09T14:12:00.000,Austin (TX),Normal,Owner Surrender,Laika,Spayed Female
+2 years,A667732,Dog,Silky Terrier Mix,Brown/Silver,2013-11-21T18:54:00.000,2013-11-21T18:54:00.000,Fleetridge in Austin (TX),Normal,Stray,Coco,Spayed Female
+2 weeks,A712376,Cat,Domestic Shorthair Mix,Blue Tabby,2015-09-22T11:52:00.000,2015-09-22T11:52:00.000,8803 Georgian Dr in Austin (TX),Injured,Stray,,Unknown
+4 weeks,A702907,Cat,Domestic Shorthair Mix,Black,2015-05-19T11:02:00.000,2015-05-19T11:02:00.000,8714 Fm 812 in Austin (TX),Normal,Stray,,Intact Male
+2 years,A760532,Dog,Catahoula Mix,Blue Merle,2017-11-30T13:31:00.000,2017-11-30T13:31:00.000,Leander (TX),Normal,Owner Surrender,Luna,Spayed Female
+3 years,A675336,Dog,Standard Schnauzer Mix,Silver,2014-03-26T12:31:00.000,2014-03-26T12:31:00.000,Iwanna Dr in Del Valle (TX),Normal,Stray,Runt Runt,Intact Female
+5 months,A699932,Dog,Labrador Retriever/Australian Cattle Dog,Brown/White,2015-04-04T14:41:00.000,2015-04-04T14:41:00.000,183/Mlk in Austin (TX),Normal,Stray,*Roxy,Intact Female
+1 year,A726125,Dog,Pit Bull Mix,Brown,2017-04-07T08:41:00.000,2017-04-07T08:41:00.000,Austin (TX),Normal,Owner Surrender,Carley,Spayed Female
+1 year,A742589,Dog,German Shepherd Mix,Tan/Black,2017-01-24T13:22:00.000,2017-01-24T13:22:00.000,13104 Johnson Rd in Manor (TX),Normal,Stray,Apollo,Intact Male
+3 weeks,A704995,Cat,Domestic Shorthair Mix,Brown Tabby,2015-06-11T15:26:00.000,2015-06-11T15:26:00.000,Austin (TX),Normal,Owner Surrender,*Ken,Intact Male
+2 years,A620780,Dog,American Staffordshire Terrier Mix,Brown Brindle/White,2014-02-12T14:54:00.000,2014-02-12T14:54:00.000,Austin (TX),Normal,Owner Surrender,*Moonbeam,Spayed Female
+5 years,A670612,Dog,Beagle,Brown/White,2016-11-17T11:09:00.000,2016-11-17T11:09:00.000,4100 Westbank Dr in Austin (TX),Normal,Stray,Sheila,Intact Female
+1 month,A715198,Cat,Domestic Shorthair,Brown Tabby,2015-11-02T07:33:00.000,2015-11-02T07:33:00.000,Found At Academy in Austin (TX),Injured,Stray,,Intact Male
+2 years,A754361,Dog,Rottweiler Mix,Black/Tan,2017-07-19T14:12:00.000,2017-07-19T14:12:00.000,812 And Doyle in Travis (TX),Normal,Stray,*Ripley,Intact Female
+3 years,A673091,Dog,Yorkshire Terrier Mix,Black/Tan,2014-02-19T13:51:00.000,2014-02-19T13:51:00.000,Travis (TX),Normal,Public Assist,Hazel,Intact Female
+6 months,A760238,Dog,Labrador Retriever Mix,Black,2017-10-15T10:37:00.000,2017-10-15T10:37:00.000,2500 Chaparral Trail in Austin (TX),Normal,Stray,Cosmo,Neutered Male
+1 month,A704893,Cat,Domestic Longhair Mix,Tortie,2015-06-10T12:12:00.000,2015-06-10T12:12:00.000,7108 Northeast Dr in Austin (TX),Normal,Stray,Amethyst,Intact Female
+2 years,A739497,Dog,Australian Cattle Dog/Beagle,Brown,2016-12-03T15:34:00.000,2016-12-03T15:34:00.000,1515 Wickersham Ln in Austin (TX),Normal,Stray,*Millie,Intact Female
+4 weeks,A730690,Cat,Domestic Shorthair Mix,White,2016-07-08T18:36:00.000,2016-07-08T18:36:00.000,1806 Jj Seabrook Drive in Austin (TX),Normal,Stray,,Intact Female
+2 years,A747907,Dog,Chihuahua Shorthair Mix,White/Brown,2017-06-22T12:30:00.000,2017-06-22T12:30:00.000,1881 Grove Blvd in Austin (TX),Normal,Stray,Dulce,Spayed Female
+10 years,A531549,Dog,Chihuahua Longhair Mix,Brown/White,2017-10-23T13:11:00.000,2017-10-23T13:11:00.000,Manchaca Road And Berkley Avenue in Austin (TX),Normal,Stray,Gizmo,Neutered Male
+4 weeks,A704345,Cat,Domestic Shorthair Mix,Orange Tabby,2015-06-03T16:42:00.000,2015-06-03T16:42:00.000,2109 Jesse Owens Dr in Austin (TX),Normal,Stray,,Unknown
+10 years,A716823,Cat,Domestic Shorthair Mix,White,2015-11-25T14:42:00.000,2015-11-25T14:42:00.000,Avery Island And La Salle Dr in Austin (TX),Normal,Public Assist,Snow,Spayed Female
+1 month,A716399,Cat,Domestic Shorthair Mix,Blue Tabby/White,2015-11-19T12:00:00.000,2015-11-19T12:00:00.000,12317 Palm Harbor Way in Travis (TX),Normal,Stray,*Brett,Intact Male
+7 years,A627554,Dog,German Shepherd Mix,Black/Tan,2017-03-23T12:56:00.000,2017-03-23T12:56:00.000,9909 North Lamar in Austin (TX),Normal,Stray,Dylan,Neutered Male
+6 years,A686117,Dog,Toy Poodle Mix,White/Tan,2016-10-03T16:08:00.000,2016-10-03T16:08:00.000,908 N Bend Dr in Austin (TX),Normal,Stray,Bonbon,Intact Male
+1 year,A734336,Other,Rat,Brown,2016-09-05T11:47:00.000,2016-09-05T11:47:00.000,245 W 3Rd St in Austin (TX),Sick,Wildlife,,Unknown
+4 years,A766359,Dog,Tibetan Spaniel/Chihuahua Longhair,Tan,2018-02-07T13:35:00.000,2018-02-07T13:35:00.000,Austin (TX),Normal,Owner Surrender,Mearu,Neutered Male
+2 years,A612925,Dog,Australian Shepherd Mix,White/Brown,2013-12-20T13:29:00.000,2013-12-20T13:29:00.000,1608 Garden St in Austin (TX),Normal,Stray,Blake,Neutered Male
+3 years,A728757,Dog,Pit Bull Mix,White/Black,2016-06-08T11:21:00.000,2016-06-08T11:21:00.000,5812 Malarkey Rd in Del Valle (TX),Normal,Stray,*Gilley,Intact Female
+5 months,A745492,Cat,Domestic Shorthair Mix,Brown Tabby,2017-03-18T16:05:00.000,2017-03-18T16:05:00.000,12201 Von Quintus Rd in Austin (TX),Normal,Stray,*Willienelso,Intact Male
+3 years,A722762,Dog,Rottweiler Mix,Black/Brown,2016-03-22T00:49:00.000,2016-03-22T00:49:00.000,1St St N And Main St in Pflugerville (TX),Normal,Public Assist,*Buck,Intact Male
+1 year,A678093,Dog,Pit Bull Mix,White/Brown,2014-05-03T16:43:00.000,2014-05-03T16:43:00.000,Jonestown (TX),Normal,Owner Surrender,Gigi,Intact Female
+1 month,A743612,Dog,Miniature Schnauzer Mix,Black,2017-02-13T13:20:00.000,2017-02-13T13:20:00.000,Austin (TX),Normal,Owner Surrender,,Intact Male
+1 month,A669543,Dog,Labrador Retriever/German Shepherd,Chocolate,2013-12-22T14:19:00.000,2013-12-22T14:19:00.000,Austin (TX),Normal,Owner Surrender,Harley,Intact Male
+2 weeks,A757754,Cat,Domestic Shorthair Mix,Black,2017-09-06T10:45:00.000,2017-09-06T10:45:00.000,Outside Jurisdiction,Normal,Stray,,Intact Female
+2 years,A720975,Dog,Shih Tzu Mix,Cream,2016-02-18T17:27:00.000,2016-02-18T17:27:00.000,1941 Gaston Place Dr in Austin (TX),Sick,Stray,Moose,Intact Male
+4 years,A764465,Dog,Miniature Poodle Mix,White,2017-12-30T14:44:00.000,2017-12-30T14:44:00.000,11425 Ptarmigan Dr in Austin (TX),Normal,Stray,,Intact Female
+2 years,A763702,Dog,Chihuahua Shorthair Mix,Brown,2017-12-14T13:05:00.000,2017-12-14T13:05:00.000,Ferguson Lane And Brown Street in Austin (TX),Normal,Stray,Evita,Intact Female
+1 year,A691541,Dog,Pit Bull Mix,Fawn,2014-11-06T11:04:00.000,2014-11-06T11:04:00.000,1002 Lott in Austin (TX),Normal,Public Assist,Chickla,Intact Female
+4 months,A731435,Cat,Domestic Shorthair Mix,Cream Tabby,2016-07-22T10:44:00.000,2016-07-22T10:44:00.000,Blue Goose Rd And Giles Lna in Austin (TX),Normal,Stray,*Casey,Intact Male
+4 years,A644228,Dog,German Shepherd Mix,Sable,2015-12-17T11:52:00.000,2015-12-17T11:52:00.000,Austin (TX),Normal,Owner Surrender,Arya,Spayed Female
+9 years,A700948,Dog,Australian Cattle Dog/Chinese Sharpei,Tan/Brown,2015-04-21T15:52:00.000,2015-04-21T15:52:00.000,8105 Linden in Travis (TX),Normal,Stray,,Unknown
+3 years,A751106,Dog,German Shepherd Mix,Brown/Black,2017-06-23T18:42:00.000,2017-06-23T18:42:00.000,Travis (TX),Normal,Owner Surrender,Luke,Neutered Male
+2 years,A682485,Cat,Domestic Shorthair Mix,Blue Tabby,2014-06-28T13:13:00.000,2014-06-28T13:13:00.000,1601 E Slaughter Ln in Austin (TX),Normal,Stray,,Intact Male
+1 year,A689298,Dog,German Shepherd Mix,Black/Tan,2014-10-01T18:29:00.000,2014-10-01T18:29:00.000,Convict Hill Rd & Poncha Pass in Austin (TX),Normal,Stray,Kasey,Intact Female
+12 years,A617900,Dog,Miniature Poodle Mix,Black/White,2015-02-10T12:02:00.000,2015-02-10T12:02:00.000,Cumberland Rd And Congress Ave in Austin (TX),Normal,Stray,Teddy,Intact Male
+4 weeks,A742459,Dog,Pit Bull Mix,Black/White,2017-01-22T09:11:00.000,2017-01-22T09:11:00.000,9100 Fm 812 Road in Travis (TX),Normal,Stray,Khan,Intact Male
+2 years,A696283,Dog,Pit Bull Mix,White/Tan,2015-02-27T10:57:00.000,2015-02-27T10:57:00.000,Austin (TX),Normal,Owner Surrender,Princess,Spayed Female
+3 years,A716675,Dog,Chihuahua Shorthair Mix,Brown,2015-11-23T10:33:00.000,2015-11-23T10:33:00.000,5106 Village Square in Austin (TX),Normal,Stray,Sirius,Intact Female
+4 weeks,A721376,Dog,German Shepherd/Chow Chow,Sable,2016-02-25T15:59:00.000,2016-02-25T15:59:00.000,Travis (TX),Normal,Owner Surrender,*Jarvis,Intact Male
+1 month,A679273,Cat,Domestic Shorthair Mix,Orange Tabby,2014-05-18T15:14:00.000,2014-05-18T15:14:00.000,9607 Hansford Dr in Austin (TX),Normal,Stray,*Marmalade,Intact Male
+3 years,A681367,Cat,Domestic Shorthair Mix,Blue Tabby,2014-06-15T14:40:00.000,2014-06-15T14:40:00.000,1722 Colony Creek Dr in Austin (TX),Normal,Stray,,Intact Female
+2 years,A666321,Dog,Miniature Schnauzer Mix,Silver,2013-10-30T12:31:00.000,2013-10-30T12:31:00.000,12225 U.S. 290 in Travis (TX),Normal,Stray,Rafa,Intact Male
+4 years,A674778,Dog,Chihuahua Shorthair/Dachshund,Red/White,2014-03-23T12:12:00.000,2014-03-23T12:12:00.000,Austin (TX),Normal,Public Assist,Joey,Neutered Male
+1 weeks,A704610,Cat,Domestic Shorthair Mix,Brown Tabby/White,2015-06-06T18:12:00.000,2015-06-06T18:12:00.000,5701 Johnny Morris Rd in Austin (TX),Normal,Stray,,Unknown
+1 year,A736521,Cat,Domestic Shorthair Mix,Black,2016-10-12T11:08:00.000,2016-10-12T11:08:00.000,Austin (TX),Normal,Owner Surrender,Benson,Intact Male
+1 month,A682180,Dog,Border Terrier/Chihuahua Shorthair,Brown,2014-06-25T12:02:00.000,2014-06-25T12:02:00.000,17305 Pearce Ln in Del Valle (TX),Normal,Stray,,Intact Male
+9 years,A615086,Dog,Toy Poodle,Apricot,2018-02-11T12:14:00.000,2018-02-11T12:14:00.000,Austin (TX),Normal,Owner Surrender,Alexander,Neutered Male
+4 weeks,A746688,Cat,Domestic Shorthair Mix,Orange Tabby/White,2017-04-07T12:39:00.000,2017-04-07T12:39:00.000,1800 E Stassney Ln in Austin (TX),Normal,Stray,*Sarita,Intact Female
+2 years,A677133,Dog,Pit Bull Mix,Blue/White,2014-04-19T18:06:00.000,2014-04-19T18:06:00.000,Fairway St & Club Way Dr in Austin (TX),Normal,Stray,Blue,Intact Male
+13 years,A724311,Dog,Chihuahua Shorthair Mix,Black/White,2017-10-21T13:18:00.000,2017-10-21T13:18:00.000,Austin (TX),Normal,Owner Surrender,Jack,Neutered Male
+0 years,A757589,Cat,Domestic Shorthair Mix,Calico,2017-09-02T18:19:00.000,2017-09-02T18:19:00.000,5208 Diwa Circle in Del Valle (TX),Normal,Stray,,Intact Female
+2 weeks,A732078,Cat,Domestic Shorthair Mix,Black,2016-08-01T17:50:00.000,2016-08-01T17:50:00.000,1170 Us 183 S in Mustang Ridge (TX),Nursing,Stray,,Unknown
+2 years,A749986,Dog,Pit Bull Mix,Red,2017-08-29T14:33:00.000,2017-08-29T14:33:00.000,Travis (TX),Normal,Owner Surrender,Mamas,Spayed Female
+6 years,A620803,Dog,Miniature Poodle Mix,White/Tricolor,2018-03-01T13:44:00.000,2018-03-01T13:44:00.000,5407 Viewpoint Drive in Austin (TX),Normal,Stray,Sassy,Spayed Female
+1 year,A747767,Dog,Labrador Retriever Mix,Brown/White,2017-05-07T13:06:00.000,2017-05-07T13:06:00.000,Austin (TX),Normal,Owner Surrender,Frank,Neutered Male
+1 year,A758131,Dog,Pit Bull Mix,Black Brindle/White,2017-09-11T16:54:00.000,2017-09-11T16:54:00.000,Outside Jurisdiction,Normal,Public Assist,96,Intact Male
+2 years,A677996,Dog,Chihuahua Shorthair Mix,Brown/White,2014-05-02T12:58:00.000,2014-05-02T12:58:00.000,Webberville Rd And Hwy 130 in Austin (TX),Normal,Stray,*Radar,Intact Male
+2 years,A744478,Dog,German Shepherd Mix,Black,2017-03-01T17:34:00.000,2017-03-01T17:34:00.000,Colton & 183 in Travis (TX),Normal,Stray,Campeon,Intact Male
+2 years,A760970,Dog,American Bulldog Mix,White/Black,2017-12-26T12:26:00.000,2017-12-26T12:26:00.000,Outside Jurisdiction,Normal,Owner Surrender,Oscar,Neutered Male
+1 month,A687062,Cat,Domestic Shorthair Mix,Cream Tabby,2014-08-30T16:14:00.000,2014-08-30T16:14:00.000,6806 Branchwood Dr in Austin (TX),Sick,Stray,*Gonzo,Intact Male
+11 months,A666270,Dog,Pit Bull Mix,Tan/Black,2013-11-03T16:11:00.000,2013-11-03T16:11:00.000,Austin (TX),Normal,Public Assist,Viper,Intact Male
+2 months,A759346,Cat,Domestic Shorthair Mix,Orange Tabby,2017-09-30T16:58:00.000,2017-09-30T16:58:00.000,2303 Alta Vista in Austin (TX),Normal,Stray,*Boca,Intact Female
+5 months,A711537,Dog,German Shepherd Mix,Tricolor,2015-09-08T13:53:00.000,2015-09-08T13:53:00.000,Silent Harbor Loop And Hidden Harbor Dr in Pflugerville (TX),Normal,Stray,,Intact Female
+4 years,A737662,Dog,Rat Terrier/Chihuahua Shorthair,White/Tricolor,2016-11-02T11:49:00.000,2016-11-02T11:49:00.000,700 Middle Ln in Austin (TX),Normal,Stray,,Intact Male
+3 days,A746002,Dog,Jack Russell Terrier Mix,Black/White,2017-03-28T09:41:00.000,2017-03-28T09:41:00.000,Travis (TX),Normal,Stray,Puppy 3,Intact Female
+7 years,A692544,Cat,Domestic Medium Hair Mix,Orange Tabby/White,2014-11-22T12:28:00.000,2014-11-22T12:28:00.000,11814 Indianhead Dr in Austin (TX),Normal,Stray,Gideon,Neutered Male
+2 years,A688996,Dog,Golden Retriever Mix,Red,2014-10-17T16:20:00.000,2014-10-17T16:20:00.000,124 W Anderson Ln in Austin (TX),Normal,Stray,*Gibson,Neutered Male
+4 weeks,A731768,Cat,Siamese Mix,White/Black,2016-07-27T12:39:00.000,2016-07-27T12:39:00.000,9707 Point Vista Pl in Austin (TX),Normal,Stray,,Unknown
+1 year,A672005,Dog,Labrador Retriever/Pointer,Chocolate/White,2014-02-02T12:36:00.000,2014-02-02T12:36:00.000,Austin (TX),Normal,Owner Surrender,Hazel,Intact Female
+1 year,A727718,Cat,Domestic Shorthair Mix,Torbie,2016-05-25T11:01:00.000,2016-05-25T11:01:00.000,1801 Fortview Rd in Austin (TX),Normal,Stray,,Intact Female
+7 months,A726296,Dog,Labrador Retriever/Australian Shepherd,Black/White,2016-05-09T13:09:00.000,2016-05-09T13:09:00.000,Austin (TX),Normal,Owner Surrender,Leo,Intact Male
+3 years,A665496,Cat,Bengal,Brown Tiger,2013-10-18T18:07:00.000,2013-10-18T18:07:00.000,12001 Metric Blvd in Austin (TX),Normal,Stray,Mikey,Neutered Male
+3 years,A697897,Cat,Domestic Longhair Mix,Brown Tabby,2015-03-03T06:57:00.000,2015-03-03T06:57:00.000,6913 Whispering Oaks in Austin (TX),Injured,Stray,,Intact Male
+4 years,A685169,Dog,Pit Bull Mix,Black/White,2016-06-18T16:01:00.000,2016-06-18T16:01:00.000,8515 S Ih 35 Apt 6225 in Austin (TX),Normal,Stray,Baby,Intact Female
+1 week,A665002,Dog,Australian Cattle Dog Mix,Sable/White,2013-10-12T11:45:00.000,2013-10-12T11:45:00.000,509 E Todd Lane in Austin (TX),Normal,Stray,,Intact Female
+2 years,A752626,Dog,Pug Mix,Brown,2017-06-25T12:03:00.000,2017-06-25T12:03:00.000,Sandshof And Loyola in Austin (TX),Normal,Stray,Lucky,Intact Male
+4 weeks,A685278,Cat,Domestic Shorthair Mix,Black/White,2014-08-05T11:05:00.000,2014-08-05T11:05:00.000,6303 Huntleigh Way in Austin (TX),Normal,Stray,*Pistachio,Intact Female
+1 year,A681720,Dog,Pit Bull/Boxer,Brown Brindle/White,2014-06-19T15:41:00.000,2014-06-19T15:41:00.000,Linden Ln in Travis (TX),Normal,Stray,*Noelle,Spayed Female
+1 year,A684113,Dog,German Shepherd Mix,White,2014-07-19T15:01:00.000,2014-07-19T15:01:00.000,1107 Lambie in Austin (TX),Normal,Stray,Sam,Intact Female
+1 year,A710272,Other,Guinea Pig Mix,Brown/White,2015-08-20T15:09:00.000,2015-08-20T15:09:00.000,Austin (TX),Normal,Owner Surrender,Odin,Unknown
+2 years,A740573,Dog,Pit Bull,White/Tan,2016-12-19T16:27:00.000,2016-12-19T16:27:00.000,8431 Bangor Bend in Austin (TX),Normal,Stray,*Handsome,Intact Male
+5 months,A680013,Other,Bat Mix,Brown,2014-05-28T23:58:00.000,2014-05-28T23:58:00.000,400 S. Congress Ave in Austin (TX),Normal,Wildlife,,Unknown
+9 months,A713485,Cat,Domestic Medium Hair Mix,Calico,2015-10-07T14:27:00.000,2015-10-07T14:27:00.000,Austin (TX),Normal,Owner Surrender,Kuku,Intact Female
+1 month,A664936,Cat,Domestic Medium Hair Mix,Brown Tabby,2013-10-11T11:20:00.000,2013-10-11T11:20:00.000,501 U.S. 183 in Austin (TX),Normal,Stray,*Jester,Intact Male
+1 month,A735125,Cat,Domestic Shorthair Mix,Calico/White,2016-09-19T08:34:00.000,2016-09-19T08:34:00.000,Turnersville And Toll Rd 45 in Travis (TX),Normal,Stray,*Anastasia,Intact Female
+1 month,A666171,Dog,Labrador Retriever Mix,Black,2013-10-28T12:54:00.000,2013-10-28T12:54:00.000,N Ih35 And Blackson St in Austin (TX),Normal,Stray,,Intact Female
+1 year,A750872,Dog,Great Pyrenees Mix,White,2017-06-01T15:10:00.000,2017-06-01T15:10:00.000,107 E Rector St in Manor (TX),Normal,Public Assist,Daisy,Intact Female
+3 years,A760315,Dog,Pit Bull Mix,Black Brindle/White,2017-10-16T12:59:00.000,2017-10-16T12:59:00.000,6505 Burleson Road in Austin (TX),Normal,Stray,Camo,Intact Male
+3 years,A682138,Dog,Chihuahua Shorthair Mix,Black/White,2014-06-24T17:07:00.000,2014-06-24T17:07:00.000,905 Bedford in Austin (TX),Normal,Stray,Frannie,Spayed Female
+13 years,A439728,Dog,Pit Bull,Red/White,2016-12-18T16:08:00.000,2016-12-18T16:08:00.000,8208 Georgie Trace in Austin (TX),Normal,Stray,Diamond,Spayed Female
+2 months,A730504,Cat,Domestic Shorthair Mix,Black/Black,2016-07-05T17:04:00.000,2016-07-05T17:04:00.000,1200 Barbra Jordan Blvd #100 in Austin (TX),Normal,Stray,*Tex,Intact Male
+4 months,A684875,Dog,German Shepherd Mix,Black/Tan,2014-07-29T17:48:00.000,2014-07-29T17:48:00.000,414 Thompson Lane in Austin (TX),Normal,Stray,,Intact Female
+2 years,A702918,Cat,Domestic Shorthair Mix,White,2015-05-19T11:16:00.000,2015-05-19T11:16:00.000,4801 Pimico in Del Valle (TX),Normal,Stray,,Intact Female
+1 year,A734337,Dog,Pit Bull Mix,Tan/White,2017-01-14T12:37:00.000,2017-01-14T12:37:00.000,Austin (TX),Normal,Owner Surrender,Athena,Spayed Female
+4 years,A674781,Dog,Akita Mix,Brown Brindle/White,2014-03-19T11:16:00.000,2014-03-19T11:16:00.000,Travis (TX),Normal,Public Assist,Duke,Intact Male
+2 months,A734375,Dog,Airedale Terrier Mix,Brown/Black,2016-09-05T17:45:00.000,2016-09-05T17:45:00.000,W William Cannon Dr & West Gate Blvd in Austin (TX),Normal,Stray,,Intact Male
+4 weeks,A704763,Cat,Domestic Shorthair Mix,Blue,2015-06-08T17:44:00.000,2015-06-08T17:44:00.000,2323 San Antonio Street in Austin (TX),Normal,Stray,*Welby,Intact Male
+3 years,A755830,Other,Rabbit Sh Mix,Tortie,2017-08-09T14:09:00.000,2017-08-09T14:09:00.000,5704 Parkwood Drive in Austin (TX),Normal,Owner Surrender,*Moana,Spayed Female
+13 years,A763884,Cat,Domestic Longhair Mix,Orange Tabby,2017-12-17T15:18:00.000,2017-12-17T15:18:00.000,Austin (TX),Sick,Owner Surrender,Fizzy Bevo,Neutered Male
+2 months,A671743,Dog,Pit Bull Mix,Brown/White,2014-01-30T13:23:00.000,2014-01-30T13:23:00.000,Lucerne And Swiss Dr in Travis (TX),Normal,Stray,Day,Intact Male
+1 year,A710099,Dog,Chihuahua Shorthair Mix,Black/Buff,2015-08-17T16:25:00.000,2015-08-17T16:25:00.000,2903 Locke #B in Austin (TX),Normal,Stray,*Sandy,Intact Female
+3 months,A674688,Cat,Domestic Shorthair Mix,Black,2014-03-16T15:33:00.000,2014-03-16T15:33:00.000,Austin (TX),Normal,Owner Surrender,Poppy,Intact Female
+7 years,A521273,Dog,Chow Chow/Australian Kelpie,Tan,2015-12-30T11:30:00.000,2015-12-30T11:30:00.000,4800 Shaw Ln in Austin (TX),Normal,Stray,Isis,Spayed Female
+3 months,A682384,Dog,Border Collie/Labrador Retriever,Black/White,2014-06-27T11:24:00.000,2014-06-27T11:24:00.000,Austin (TX),Normal,Owner Surrender,Dolly,Intact Female
+2 years,A671706,Dog,Staffordshire Mix,Black/White,2014-01-29T18:54:00.000,2014-01-29T18:54:00.000,7312 Laldybug St in Austin (TX),Normal,Stray,,Intact Female
+7 months,A699362,Other,Rabbit Sh Mix,Black/White,2015-03-26T12:55:00.000,2015-03-26T12:55:00.000,Austin (TX),Normal,Owner Surrender,Lola,Unknown
+3 years,A746133,Cat,Domestic Shorthair Mix,Black,2017-03-29T10:38:00.000,2017-03-29T10:38:00.000,505 East Huntland Drive in Austin (TX),Normal,Stray,,Intact Male
+1 year,A692091,Dog,Black/Tan Hound Mix,Tricolor,2014-11-14T14:25:00.000,2014-11-14T14:25:00.000,3401 Red River in Austin (TX),Normal,Stray,Dobby,Intact Male
+2 years,A714945,Other,Bat Mix,Brown,2015-10-29T16:39:00.000,2015-10-29T16:39:00.000,1101 S Mopac in Austin (TX),Sick,Wildlife,,Unknown
+5 years,A697282,Dog,Labrador Retriever Mix,Black/White,2015-03-13T12:52:00.000,2015-03-13T12:52:00.000,Austin (TX),Normal,Owner Surrender,Dez,Neutered Male
+1 year,A695691,Dog,Chihuahua Shorthair/Rat Terrier,White/Brown,2015-01-20T14:35:00.000,2015-01-20T14:35:00.000,4612 Sherwyn Dr in Austin (TX),Normal,Stray,Princess,Spayed Female
+5 years,A764596,Dog,Rat Terrier Mix,Brown/White,2018-01-02T14:11:00.000,2018-01-02T14:11:00.000,3200 Crownover Street in Austin (TX),Normal,Stray,Sparky,Neutered Male
+1 month,A667077,Cat,Domestic Shorthair Mix,Blue,2013-11-12T13:28:00.000,2013-11-12T13:28:00.000,7610 Cameron Rd in Austin (TX),Normal,Stray,Molly,Intact Female
+17 years,A758177,Dog,Labrador Retriever Mix,Tan/White,2017-09-12T13:26:00.000,2017-09-12T13:26:00.000,Blanco Street And 9Th Street in Austin (TX),Normal,Stray,Lola,Intact Female
+3 months,A685105,Cat,Domestic Shorthair Mix,Black,2014-08-02T13:42:00.000,2014-08-02T13:42:00.000,6512 Bradley Dr in Austin (TX),Normal,Stray,*Tero,Intact Male
+2 months,A678802,Cat,Domestic Shorthair Mix,Brown Tabby,2014-05-12T19:03:00.000,2014-05-12T19:03:00.000,4700 East Riverside Dr in Austin (TX),Normal,Stray,Peepsqueak,Intact Female
+3 years,A697003,Dog,Pit Bull Mix,Brown/White,2017-07-28T02:06:00.000,2017-07-28T02:06:00.000,4000 Airport in Austin (TX),Normal,Public Assist,Bevo,Intact Male
+3 years,A679346,Dog,Pit Bull Mix,Blue/Tan,2014-08-23T12:57:00.000,2014-08-23T12:57:00.000,Austin (TX),Normal,Owner Surrender,Houston,Neutered Male
+2 years,A723084,Other,Raccoon Mix,Black/White,2016-03-26T13:24:00.000,2016-03-26T13:24:00.000,1605 Suffolk Dr in Austin (TX),Sick,Wildlife,,Unknown
+10 years,A682489,Cat,Domestic Shorthair Mix,Blue,2014-06-28T13:24:00.000,2014-06-28T13:24:00.000,14001 Avery Ranch Blvd in Austin (TX),Sick,Stray,,Neutered Male
+1 year,A766191,Dog,Cairn Terrier Mix,White/Black,2018-02-04T11:30:00.000,2018-02-04T11:30:00.000,Delta Post Drive And Fm 969 in Austin (TX),Normal,Stray,,Intact Male
+5 years,A721380,Dog,Pit Bull Mix,Blue/White,2016-02-25T17:17:00.000,2016-02-25T17:17:00.000,Virgo Ln And in Austin (TX),Normal,Stray,*Leo,Intact Male
+4 years,A726297,Dog,Beagle Mix,Black/Tan,2016-06-06T16:25:00.000,2016-06-06T16:25:00.000,Austin (TX),Normal,Owner Surrender,Bella,Spayed Female
+8 months,A703497,Dog,Labrador Retriever Mix,Black,2015-05-29T13:34:00.000,2015-05-29T13:34:00.000,5902 North Hampton Drive in Austin (TX),Normal,Public Assist,Coal,Intact Male
+3 years,A744630,Dog,Pit Bull Mix,Blue/White,2017-03-04T13:21:00.000,2017-03-04T13:21:00.000,13901 Fm 969 in Travis (TX),Normal,Stray,*Booba,Intact Male
+6 months,A692896,Dog,Chihuahua Shorthair Mix,Brown,2014-12-02T12:46:00.000,2014-12-02T12:46:00.000,5707 Magee Bend in Austin (TX),Normal,Stray,,Intact Male
+4 months,A667075,Cat,Domestic Shorthair Mix,Black,2013-11-12T12:58:00.000,2013-11-12T12:58:00.000,Austin (TX),Normal,Owner Surrender,*Shadow,Intact Male
+2 years,A703625,Dog,Chihuahua Longhair Mix,Black/Gray,2015-05-27T13:56:00.000,2015-05-27T13:56:00.000,Austin (TX),Normal,Stray,*Jojo,Intact Female
+7 years,A747042,Cat,Domestic Shorthair Mix,Blue Cream,2017-04-12T19:01:00.000,2017-04-12T19:01:00.000,10513 Cooper Hill Dr in Austin (TX),Normal,Stray,*Winnie,Spayed Female
+1 year,A712737,Dog,Chihuahua Shorthair Mix,Sable,2015-09-27T13:33:00.000,2015-09-27T13:33:00.000,Harris Redge Blvd And Sebastian Bend in Pflugerville (TX),Normal,Stray,Pepito,Intact Male
+3 years,A698931,Dog,Bloodhound Mix,Red/Black,2015-03-19T19:09:00.000,2015-03-19T19:09:00.000,Windsor Rd And Exposition Blvd in Austin (TX),Normal,Stray,,Intact Male
+1 year,A764223,Other,Raccoon,Gray/Black,2017-12-25T11:33:00.000,2017-12-25T11:33:00.000,5608 Honeybee Bend in Austin (TX),Sick,Wildlife,,Unknown
+7 years,A733930,Dog,Chihuahua Shorthair/French Bulldog,Tan,2016-08-29T15:09:00.000,2016-08-29T15:09:00.000,Travis (TX),Normal,Owner Surrender,Tanner,Neutered Male
+3 weeks,A723672,Cat,Domestic Shorthair Mix,Orange Tabby,2016-04-04T17:26:00.000,2016-04-04T17:26:00.000,1407 Warrior in Travis (TX),Normal,Stray,,Intact Male
+4 years,A732478,Dog,Anatol Shepherd,Brown/White,2017-02-27T11:01:00.000,2017-02-27T11:01:00.000,Travis (TX),Normal,Public Assist,Cowboy,Intact Male
+2 years,A678461,Cat,Domestic Shorthair Mix,Tortie,2014-05-09T10:33:00.000,2014-05-09T10:33:00.000,7615 Northview Ln in Austin (TX),Normal,Stray,,Intact Female
+3 weeks,A686932,Cat,Domestic Shorthair Mix,Black/White,2014-08-29T10:19:00.000,2014-08-29T10:19:00.000,9808 Oak Run Drive in Austin (TX),Normal,Stray,,Intact Male
+7 months,A674282,Cat,Domestic Shorthair Mix,Brown Tabby,2014-03-10T18:38:00.000,2014-03-10T18:38:00.000,3201 Jack Cook Dr. in Austin (TX),Injured,Stray,*Bobby,Intact Male
+1 year,A747288,Cat,Domestic Shorthair Mix,Black,2017-04-17T17:37:00.000,2017-04-17T17:37:00.000,10610 Morado Cir in Austin (TX),Normal,Stray,,Intact Female
+6 years,A663692,Dog,Plott Hound Mix,Brown Brindle/White,2013-11-26T11:40:00.000,2013-11-26T11:40:00.000,Austin (TX),Normal,Owner Surrender,Austin,Neutered Male
+2 months,A740349,Dog,Chihuahua Shorthair Mix,Tan/White,2016-12-15T16:56:00.000,2016-12-15T16:56:00.000,1501 Fm973 in Austin (TX),Normal,Owner Surrender,Harper,Intact Male
+3 years,A723523,Cat,Angora Mix,White,2016-04-02T15:43:00.000,2016-04-02T15:43:00.000,5305 Park At Woodlands in Austin (TX),Normal,Stray,*Hollywood,Neutered Male
+8 years,A745987,Dog,Chihuahua Shorthair Mix,Tan,2017-03-27T15:54:00.000,2017-03-27T15:54:00.000,14507 Gold Fish Pond Ave. in Austin (TX),Normal,Stray,*Nate,Neutered Male
+7 months,A705974,Dog,Pit Bull/Plott Hound,Black Brindle/White,2015-06-23T11:14:00.000,2015-06-23T11:14:00.000,14907 Lucerne Dr in Travis (TX),Injured,Stray,*Sadie,Intact Female
+0 years,A761565,Dog,Labrador Retriever Mix,Tricolor,2017-11-06T18:43:00.000,2017-11-06T18:43:00.000,11906 Bronco Circle in Austin (TX),Normal,Stray,,Intact Female
+10 years,A686201,Dog,Rat Terrier Mix,Black/White,2015-06-16T11:59:00.000,2015-06-16T11:59:00.000,5708 Elk Crossing in Austin (TX),Normal,Stray,Chicharro,Intact Male
+1 year,A682433,Dog,Labrador Retriever/Pit Bull,Black,2014-06-27T15:59:00.000,2014-06-27T15:59:00.000,5315 Ed Bluestein Blvd in Austin (TX),Normal,Stray,Thor,Neutered Male
+1 year,A688038,Dog,Norwich Terrier/Yorkshire Terrier,Black/Brown,2014-09-13T13:31:00.000,2014-09-13T13:31:00.000,Metric And Bittern in Austin (TX),Normal,Stray,Daisy,Intact Female
+1 month,A689483,Cat,Domestic Shorthair Mix,Brown Tabby,2014-10-04T14:36:00.000,2014-10-04T14:36:00.000,Duval And 43Rd St in Austin (TX),Normal,Stray,*Ella,Intact Female
+1 year,A757183,Dog,Bichon Frise/Pekingese,Cream/Black,2017-08-31T11:22:00.000,2017-08-31T11:22:00.000,14320 Tandem Blvd in Austin (TX),Normal,Stray,,Intact Female
+8 months,A670785,Dog,Siberian Husky Mix,Gray/White,2014-01-14T11:54:00.000,2014-01-14T11:54:00.000,11300 Samsung Blvd in Austin (TX),Normal,Stray,MuÃ±eca,Intact Female
+2 months,A754004,Cat,Domestic Shorthair Mix,Black,2017-07-14T11:42:00.000,2017-07-14T11:42:00.000,9200 Cameron Road in Austin (TX),Normal,Stray,*Cash,Intact Male
+2 years,A699678,Cat,Domestic Shorthair Mix,Black,2015-03-31T18:08:00.000,2015-03-31T18:08:00.000,1016 W Stassney Ln in Austin (TX),Normal,Stray,,Intact Female
+1 year,A680237,Cat,Domestic Medium Hair Mix,Black,2014-05-31T12:15:00.000,2014-05-31T12:15:00.000,17701 Prairie Vebenia in Travis (TX),Normal,Stray,,Intact Female
+2 days,A698559,Dog,Labrador Retriever/Boxer,Tan/White,2015-03-13T17:31:00.000,2015-03-13T17:31:00.000,Braker Ln And Hwy 183 in Austin (TX),Nursing,Stray,,Intact Male
+1 year,A731888,Other,Guinea Pig Mix,Calico,2016-07-28T17:32:00.000,2016-07-28T17:32:00.000,Austin (TX),Normal,Stray,,Unknown
+3 years,A696483,Dog,Bull Terrier Mix,Black/White,2016-03-03T17:37:00.000,2016-03-03T17:37:00.000,Austin (TX),Normal,Public Assist,Spud,Intact Male
+3 years,A601748,Cat,Siamese Mix,Seal Point,2015-01-27T12:52:00.000,2015-01-27T12:52:00.000,3302 Glenview Ave in Austin (TX),Injured,Stray,Sam,Neutered Male
+2 years,A670714,Dog,Labrador Retriever Mix,Black,2014-01-12T19:15:00.000,2014-01-12T19:15:00.000,4902 Teri Rd in Austin (TX),Normal,Stray,*Nathan,Intact Male
+1 year,A670732,Other,Raccoon Mix,Brown/Black,2014-01-13T12:43:00.000,2014-01-13T12:43:00.000,2704 Wilson St. in Austin (TX),Sick,Wildlife,,Unknown
+4 months,A666457,Dog,Dachshund/Bloodhound,Brown/White,2013-11-01T15:13:00.000,2013-11-01T15:13:00.000,3006 Royster in Austin (TX),Normal,Stray,,Intact Female
+8 months,A728886,Dog,Pit Bull Mix,Blue/White,2016-06-09T21:36:00.000,2016-06-09T21:36:00.000,1120 Brookswood Ave in Austin (TX),Normal,Stray,Pretty Boy,Intact Male
+2 years,A650538,Dog,Chihuahua Shorthair Mix,Black/Tan,2015-02-10T14:48:00.000,2015-02-10T14:48:00.000,615 Thrasher in Austin (TX),Normal,Stray,Negrito,Intact Male
+6 months,A693314,Dog,Vizsla Mix,Red,2014-12-05T14:48:00.000,2014-12-05T14:48:00.000,7117 Heine Farm Rd in Del Valle (TX),Normal,Stray,,Intact Male
+1 year,A759293,Dog,Labrador Retriever Mix,Black,2017-09-30T11:44:00.000,2017-09-30T11:44:00.000,West Anderson Lane And Shoal Creek Blvd in Austin (TX),Normal,Stray,,Intact Female
+4 months,A739018,Dog,Labrador Retriever Mix,Black/White,2016-11-26T13:35:00.000,2016-11-26T13:35:00.000,3100 Collins Creek Dr in Austin (TX),Normal,Stray,,Intact Female
+6 months,A763628,Cat,Domestic Shorthair Mix,Orange Tabby,2017-12-12T14:09:00.000,2017-12-12T14:09:00.000,Austin (TX),Normal,Owner Surrender,Murphy,Intact Male
+4 years,A691384,Dog,Greater Swiss Mountain Dog,Black/Tricolor,2014-11-03T16:37:00.000,2014-11-03T16:37:00.000,4612 Convict Hill Rd in Austin (TX),Normal,Stray,Hoss,Intact Male
+5 years,A632902,Dog,Australian Cattle Dog,Red Merle,2015-05-27T12:00:00.000,2015-05-27T12:00:00.000,Austin (TX),Normal,Owner Surrender,Sammy,Neutered Male
+4 weeks,A766139,Cat,American Curl Shorthair/Siamese,Lynx Point,2018-02-02T14:58:00.000,2018-02-02T14:58:00.000,3543 Greystone Drive in Austin (TX),Normal,Stray,Eagle,Intact Male
