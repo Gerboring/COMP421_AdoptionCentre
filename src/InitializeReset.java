@@ -37,6 +37,12 @@ public class InitializeReset {
     }
 
     public static void createTables(Connection conn1) throws SQLException {
+        String[] tables = {"Animal", "Client", "Veterinarian", "AnimalControlWorker", "Personnel",
+                            "VolunteerCareWorker", "Complaint", "MedicalRoom", "HoldingRoom", "Room",
+                            "Kennel", "Procedure", "Visits", "Adopts"};
+        dropAllTables(conn1, tables);
+
+
         createTable(conn1, "Animal", getAnimalStatement());
         createTable(conn1, "Client", getClientStatement());
         createTable(conn1, "Personnel", getPersonnelStatement());
@@ -60,14 +66,22 @@ public class InitializeReset {
      * ConductsProcedure
      * ReceivesProcedure
      */
+
+    public static void dropAllTables(Connection conn, String[] tableNames) throws SQLException {
+        Statement stmt = conn.createStatement();
+        String curTable = "";
+        try {
+            for (String tableName: tableNames ) {
+                curTable = tableName;
+                stmt.executeUpdate("DROP TABLE IF EXISTS " + curTable + " CASCADE;");
+            }
+        } catch (PSQLException e) {
+            System.out.println(curTable + " table did not previously exist");
+            e.printStackTrace();
+        }
+    }
     public static void createTable(Connection conn, String tableName, String statement) throws SQLException{
         Statement stmt = conn.createStatement();
-        try {
-            stmt.executeUpdate("DROP TABLE " + tableName);
-            System.out.println(tableName + " table already existed");
-        } catch (PSQLException e){
-            System.out.println(tableName + " table did not previously exist");
-        }
         try {
             stmt.executeUpdate(statement);
             System.out.println(tableName + " table created");
@@ -121,10 +135,10 @@ public class InitializeReset {
     public static String getClientStatement(){
         return "CREATE TABLE Client" +
                 "(" +
-                "    clientName VARCHAR(20)," +
-                "    clientPhone CHAR(10)," +
-                "    address VARCHAR(1000)," +
-                "    PRIMARY KEY(clientName,clientPhone)" +
+                "clientName VARCHAR(20)," +
+                "clientPhone CHAR(10)," +
+                "address VARCHAR(1000)," +
+                "PRIMARY KEY(clientName,clientPhone)" +
                 ");";
     }
 
@@ -137,12 +151,12 @@ public class InitializeReset {
     public static String getPersonnelStatement(){
         return "CREATE TABLE Personnel" +
                 "(" +
-                "    staffID INTEGER NOT NULL," +
-                "    name VARCHAR(20)," +
-                "    phone CHAR(10)," +
-                "    address VARCHAR(1000)," +
-                "    salary INTEGER," +
-                "    PRIMARY KEY(staffID)" +
+                "staffID INTEGER NOT NULL," +
+                "name VARCHAR(20)," +
+                "phone CHAR(10)," +
+                "address VARCHAR(1000)," +
+                "salary INTEGER," +
+                "PRIMARY KEY(staffID)" +
                 ");";
     }
 
@@ -172,12 +186,11 @@ public class InitializeReset {
                 "(" +
                 "complaintTime DATE NOT NULL, location VARCHAR(50) NOT NULL," +
                 "staffID INTEGER, name VARCHAR(20)," +
-                "phone INTEGER, description VARCHAR(50)," +
+                "phone CHAR(10), description VARCHAR(50)," +
                 "status CHAR DEFAULT '0' NOT NULL," +
                 "PRIMARY KEY(complaintTime, location), " +
-                "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker, " +
-                "FOREIGN KEY(name) REFERENCES Client(clientName)," +
-                "FOREIGN KEY(phone) REFERENCES Client(clientPhone)" +
+                "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker(staffID), " +
+                "FOREIGN KEY(name, phone) REFERENCES Client(clientName, clientPhone)" +
                 ");";
     }
 
@@ -238,8 +251,7 @@ public class InitializeReset {
                 "clientPhone CHAR(10)," +
                 "visitTime TIMESTAMP," +
                 "FOREIGN KEY(animalID) REFERENCES Animal," +
-                "FOREIGN KEY(clientName) REFERENCES Client," +
-                "FOREIGN KEY(clientPhone) REFERENCES Client," +
+                "FOREIGN KEY(clientName, clientPhone) REFERENCES Client(clientName, clientPhone)," +
                 "PRIMARY KEY(animalId, clientName, clientPhone)" +
                 ");";
     }
@@ -255,9 +267,23 @@ public class InitializeReset {
                 "contract VARCHAR(65000)," +
                 "FOREIGN KEY(animalID) REFERENCES Animal," +
                 "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker," +
-                "FOREIGN KEY(clientName) REFERENCES Client(clientName)," +
-                "FOREIGN KEY(clientPhone) REFERENCES Client(clientPhone)," +
+                "FOREIGN KEY(clientName, clientPhone) REFERENCES Client(clientName, clientPhone)," +
                 "PRIMARY KEY(staffID,animalID,clientName,clientPhone)" +
+                ");";
+    }
+
+    public static String getCapturesStatement(){
+        return "CREATE TABLE Captures" +
+                "(" +
+                "animalID INTEGER," +
+                "complaintTime TIMESTAMP," +
+                "complaintLocation VARCHAR(100)," +
+                "staffID INTEGER," +
+                "captureTime TIMESTAMP," +
+                "captureLocation VARCHAR(100)," +
+                "FOREIGN KEY(staffID) REFERENCES AnimalControlWorker," +
+                "FOREIGN KEY(complaintTime, complaintLocation) REFERENCES Complaint(complaintTime, complaintLocation)," +
+                "PRIMARY KEY(animalID, complaintTime, complaintLocation)" +
                 ");";
     }
 }
