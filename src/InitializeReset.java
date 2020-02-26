@@ -39,7 +39,8 @@ public class InitializeReset {
     public static void createTables(Connection conn1) throws SQLException {
         String[] tables = {"Animal", "Client", "Veterinarian", "AnimalControlWorker", "Personnel",
                             "VolunteerCareWorker", "Complaint", "MedicalRoom", "HoldingRoom", "Room",
-                            "Kennel", "Procedure", "Visits", "Adopts"};
+                            "Kennel", "Procedure", "Visits", "Adopts", "Captures", "Surrenders",
+                            "Investigates", "ConductsProcedure", "ReceivesProcedure"};
         dropAllTables(conn1, tables);
 
 
@@ -57,6 +58,11 @@ public class InitializeReset {
         createTable(conn1, "Procedure", getProcedureStatement());
         createTable(conn1, "Visits", getVisitsStatement());
         createTable(conn1, "Adopts", getAdoptsStatement());
+        createTable(conn1, "Captures", getCapturesStatement());
+        createTable(conn1, "Surrenders", getSurrendersStatement());
+        createTable(conn1, "Investigates", getInvestigatesStatement());
+        createTable(conn1, "ConductsProcedure", getConductsProcedureStatement());
+        createTable(conn1, "ReceivesProcedure", getReceivesProcedureStatement());
     }
 
     /* @todo
@@ -284,6 +290,34 @@ public class InitializeReset {
                 "FOREIGN KEY(staffID) REFERENCES AnimalControlWorker," +
                 "FOREIGN KEY(complaintTime, complaintLocation) REFERENCES Complaint(complaintTime, complaintLocation)," +
                 "PRIMARY KEY(animalID, complaintTime, complaintLocation)" +
+                ");";
+    }
+
+    public static String getSurrendersStatement(){
+        return "CREATE TABLE Surrenders" +
+                "(" +
+
+                ");";
+    }
+
+    public static String getInvestigatesStatement(){
+        return "CREATE TABLE Investigates" +
+                "(" +
+
+                ");";
+    }
+
+    public static String getConductsProcedureStatement(){
+        return "CREATE TABLE ConductsProcedure" +
+                "(" +
+
+                ");";
+    }
+
+    public static String getReceivesProcedureStatement(){
+        return "CREATE TABLE ReceivesProcedure" +
+                "(" +
+
                 ");";
     }
 }
