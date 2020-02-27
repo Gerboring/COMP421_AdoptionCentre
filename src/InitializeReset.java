@@ -15,22 +15,27 @@ public class InitializeReset {
         System.out.println("Connection Successful");
 
         createTables(conn1);
-
+        
         //TODO: further test
         //Add animal csv inserts
-        /*try
+        try
         {
-            String [] csvAnimalInsertStmts = ParseCSV.getAnimalCSVStatements();
+            String[] csvAnimalInsertStmts = ParseCSV.getAnimalCSVStatements();
             for (String stmt: csvAnimalInsertStmts)
             {
 
                 insert(conn1, "Animal", stmt);
             }
+            
+            String[] clientInsertStmts = GenerateClients.generateClientInsertStatements(100);
+            for(String clientStmt : clientInsertStmts) {
+            	insert(conn1, "Client", clientStmt);
+            }
         }
         catch(IOException e){
             System.out.println("IO Error with Animal CSV: ");
             e.printStackTrace();
-        }*/
+        }
 
         //finally, close connection
         conn1.close();
@@ -103,8 +108,10 @@ public class InitializeReset {
         try
         {
             Statement stmt = conn.createStatement();
+            System.out.println("Execute: "+ "INSERT INTO " + tableName + " VALUES(" + statement + ");");
             stmt.executeUpdate("INSERT INTO " + tableName + " VALUES(" + statement + ");");
             stmt.close();
+            
         }
         catch (SQLException e)
         {
@@ -117,13 +124,13 @@ public class InitializeReset {
         return "CREATE TABLE Animal" +
                 "(" +
                 "animalID INTEGER NOT NULL," +
-                "name VARCHAR(20)," +
-                "species VARCHAR(20)," +
+                "name VARCHAR(50)," +
+                "species VARCHAR(50)," +
                 "age INTEGER," +
-                "breed VARCHAR(20)," +
+                "breed VARCHAR(50)," +
                 "sex CHAR," +
                 "isAdopted BIT NOT NULL DEFAULT 0::bit," +
-                "medicalFile VARCHAR(20)," +
+                "medicalFile VARCHAR(50)," +
                 "PRIMARY KEY(animalID)" +
                 ");";
     }
@@ -134,8 +141,8 @@ public class InitializeReset {
                                       String breed, char sex,
                                       Boolean isAdopted, String medicalFile)
     {
-        return String.format("INSERT INTO Animal VALUES(%d, %s, %s, %d, %s, %c, %b, %s);",
-                                        animalID, name, species, age, breed, sex, isAdopted, medicalFile);
+        return String.format("%d,'%s','%s',%d,'%s','%c','%d','%s'",
+                                        animalID, name, species, age, breed, sex, isAdopted.compareTo(false), medicalFile);
     }
 
     public static String getClientStatement(){
@@ -148,9 +155,9 @@ public class InitializeReset {
                 ");";
     }
 
-    public static String getInsertClient(String clientName, int clientPhone, String address)
+    public static String getInsertClient(String clientName, String clientPhone, String address)
     {
-        return String.format("INSERT INTO Client VALUES(%s, %d, %s);",
+        return String.format("'%s','%s','%s'",
                 clientName, clientPhone, address);
     }
 

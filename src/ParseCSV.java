@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Random;
 
 public class ParseCSV
 {
@@ -10,13 +11,14 @@ public class ParseCSV
         BufferedReader csvReader = new BufferedReader(new FileReader("./resources/animal_intake.csv"));
 
         //String[] animalInsertStatements = new String[(int) (csvReader.lines().count() - 1)];
-        String[] animalInsertStatements = new String[500];
+        String[] animalInsertStatements = new String[499];
 
         csvReader.readLine(); //skip header line
         int i = 0;
         String row = "";
         while ((row = csvReader.readLine()) != null) {
             String[] data = row.split(",");
+            System.out.println(data.length);
 
             if(data[0].contains("months") || data[0].contains("week"))
             {
@@ -27,12 +29,12 @@ public class ParseCSV
             //change animalID to just integers
             data[1] = data[1].replaceAll("[^0-9]", "");
             //change sex field to just male or female char
-            if(data[11].toLowerCase().contains("male")){
-                data[11] = "m";
-            } else if (data[11].toLowerCase().contains("female")){
+            if(data[11].toLowerCase().contains("female")){
                 data[11] = "f";
+            } else if (data[11].toLowerCase().contains("male")){
+                data[11] = "m";
             } else{
-                data[11] = null;
+                data[11] = "x";
             }
 
             //TODO: populate medical file
