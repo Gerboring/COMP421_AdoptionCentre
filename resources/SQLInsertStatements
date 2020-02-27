@@ -1,0 +1,47 @@
+INSERT INTO personnel VALUES(001, 'Eric Beaver','5149162714', '3030 René-Lévesque Blvd',100000);
+INSERT INTO personnel VALUES(002, 'Eduardo Pate','5143913222', '138 rue Levy',0);
+INSERT INTO personnel VALUES(003, 'Sandy Washington', '5149685582', '4979 chemin Hudson',100000);
+INSERT INTO personnel VALUES(004, 'Dean Savage', '5144972911', '4963 René-Lévesque Blvd',100000);
+INSERT INTO personnel VALUES(005, 'Mellisa Talbot', '5142492870', '2752 René-Lévesque Blvd',100000);
+INSERT INTO personnel VALUES(006, 'Donald Estep','5145184581', '3289 Sherbrooke Ouest',0);
+INSERT INTO personnel VALUES(007, 'Sarah Crawford', '5148022597', '4454 rue de la Gauchetière',0);
+INSERT INTO personnel VALUES(008, 'Janice Clifford', '5142296046', '1881 Duke Street',0);
+INSERT INTO personnel VALUES(009, 'Vickie Bowles','5149687715', '940 Sherbrooke Ouest',50000);
+INSERT INTO personnel VALUES(010, 'Sarah Araujo','5147816598', '1456 Papineau Avenue',50000);
+INSERT INTO personnel VALUES(011, 'Melody Bell','5144853357', '2502 Scarth Street',50000);
+INSERT INTO personnel VALUES(012, 'Kenneth Henderson', '4509626245', '4246 Pitfield Blvd',50000);
+
+
+INSERT INTO veterinarian VALUES(001, 'Eric Beaver','5149162714', '3030 René-Lévesque Blvd',100000,'Techniques:surgery,vaccines \n Animals:Cats,Dogs');
+INSERT INTO veterinarian VALUES(003, 'Sandy Washington', '5149685582', '4979 chemin Hudson',100000,'Techniques:surgery,vaccines,euthanasia \n Animals:Cats,Dogs,Rodents,Snakes');
+INSERT INTO veterinarian VALUES(004, 'Dean Savage', '5144972911', '4963 René-Lévesque Blvd',100000,'Techniques:surgery,vaccines \n Animals:Cats,Dogs,Rodents,Birds');
+INSERT INTO veterinarian VALUES(005, 'Mellisa Talbot', '5142492870', '2752 René-Lévesque Blvd',100000,'Techniques:surgery,vaccines,euthanasia \n Animals:Cats, dogs, wild animals');
+
+INSERT INTO volunteercareworker VALUES(006, 'Donald Estep','5145184581', '3289 Sherbrooke Ouest',0);
+INSERT INTO volunteercareworker VALUES(007, 'Sarah Crawford', '5148022597', '4454 rue de la Gauchetière',0);
+INSERT INTO volunteercareworker VALUES(008, 'Janice Clifford', '5142296046', '1881 Duke Street',0);
+INSERT INTO volunteercareworker VALUES(002, 'Eduardo Pate','5143913222', '138 rue Levy',0);
+
+INSERT INTO animalcontrolworker VALUES(009, 'Vickie Bowles','5149687715', '940 Sherbrooke Ouest',50000);
+INSERT INTO animalcontrolworker VALUES(010, 'Sarah Araujo','5147816598', '1456 Papineau Avenue',50000);
+INSERT INTO animalcontrolworker VALUES(011, 'Melody Bell','5144853357', '2502 Scarth Street',50000);
+INSERT INTO animalcontrolworker VALUES(012, 'Kenneth Henderson', '4509626245', '4246 Pitfield Blvd',50000);
+
+INSERT INTO room VALUES(101);
+INSERT INTO room VALUES(102);
+INSERT INTO room VALUES(103);
+INSERT INTO room VALUES(104);
+INSERT INTO room VALUES(201);
+INSERT INTO room VALUES(202);
+INSERT INTO room VALUES(203);
+INSERT INTO room VALUES(204);
+
+INSERT INTO holdingroom VALUES(201,10);
+INSERT INTO holdingroom VALUES(202,12);
+INSERT INTO holdingroom VALUES(103,10);
+INSERT INTO holdingroom VALUES(104,15);
+
+INSERT INTO medicalroom VALUES(101,'operating table, MRI, x-ray, anesthesia');
+INSERT INTO medicalroom VALUES(102,'operating table, ultrasound, anesthesia');
+INSERT INTO medicalroom VALUES(203,'operating table, ultrasound, x-ray, anesthesia');
+INSERT INTO medicalroom VALUES(204,'operating table,x-ray, anesthesia');
