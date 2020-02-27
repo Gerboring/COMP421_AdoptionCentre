@@ -190,11 +190,11 @@ public class InitializeReset {
     public static String getComplaintStatement(){
         return "CREATE TABLE Complaint" +
                 "(" +
-                "complaintTime DATE NOT NULL, location VARCHAR(50) NOT NULL," +
+                "complaintTime TIMESTAMP NOT NULL, complaintLocation VARCHAR(100) NOT NULL," +
                 "staffID INTEGER, name VARCHAR(20)," +
                 "phone CHAR(10), description VARCHAR(50)," +
                 "status CHAR DEFAULT '0' NOT NULL," +
-                "PRIMARY KEY(complaintTime, location), " +
+                "PRIMARY KEY(complaintTime, complaintLocation), " +
                 "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker(staffID), " +
                 "FOREIGN KEY(name, phone) REFERENCES Client(clientName, clientPhone)" +
                 ");";
@@ -296,28 +296,50 @@ public class InitializeReset {
     public static String getSurrendersStatement(){
         return "CREATE TABLE Surrenders" +
                 "(" +
-
+                "animalID INTEGER," +
+                "name VARCHAR(20)," +
+                "phone CHAR(10)," +
+                "surrenderTime TIMESTAMP," +
+                "FOREIGN KEY(animalID) REFERENCES Animal(animalID)," +
+                "FOREIGN KEY(name, phone) REFERENCES Client(clientName, clientPhone)," +
+                "PRIMARY KEY(animalID,name,phone)" +
                 ");";
     }
 
     public static String getInvestigatesStatement(){
         return "CREATE TABLE Investigates" +
                 "(" +
-
+                "complaintTime TIMESTAMP," +
+                "complaintLocation VARCHAR(100)," +
+                "staffID INTEGER," +
+                "report VARCHAR(65000)," +
+                "FOREIGN KEY(complaintTime, complaintLocation) REFERENCES Complaint(complaintTime, complaintLocation)," +
+                "FOREIGN KEY(staffID) REFERENCES AnimalControlWorker(staffID)," +
+                "PRIMARY KEY(complaintTime,complaintLocation)" +
                 ");";
     }
 
     public static String getConductsProcedureStatement(){
         return "CREATE TABLE ConductsProcedure" +
                 "(" +
-
+                "staffID INTEGER," +
+                "startTime TIMESTAMP," +
+                "roomNumber INTEGER," +
+                "FOREIGN KEY(staffID) REFERENCES Veterinarian(staffID)," +
+                "FOREIGN KEY(roomNumber, startTime) REFERENCES Procedure(roomNumber, startTime)," +
+                "PRIMARY KEY(staffID, startTime, RoomNumber)" +
                 ");";
     }
 
     public static String getReceivesProcedureStatement(){
         return "CREATE TABLE ReceivesProcedure" +
                 "(" +
-
+                "animalID INTEGER," +
+                "startTime TIMESTAMP," +
+                "roomNumber INTEGER," +
+                "FOREIGN KEY (animalID) REFERENCES Animal(animalID)," +
+                "FOREIGN KEY(roomNumber, startTime) REFERENCES Procedure(roomNumber, startTime)," +
+                "PRIMARY KEY(animalID, startTime, roomNumber)" +
                 ");";
     }
 }
