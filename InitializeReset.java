@@ -15,7 +15,7 @@ public class InitializeReset {
         System.out.println("Connection Successful");
 
         createTables(conn1);
-        
+
         //TODO: further test
         //Add animal csv inserts
         try
@@ -26,7 +26,7 @@ public class InitializeReset {
 
                 insert(conn1, "Animal", stmt);
             }
-            
+
             String[] clientInsertStmts = GenerateClients.generateClientInsertStatements(100);
             for(String clientStmt : clientInsertStmts) {
             	insert(conn1, "Client", clientStmt);
@@ -45,7 +45,7 @@ public class InitializeReset {
         String[] tables = {"Animal", "Client", "Veterinarian", "AnimalControlWorker", "Personnel",
                             "VolunteerCareWorker", "Complaint", "MedicalRoom", "HoldingRoom", "Room",
                             "Kennel", "Procedure", "Visits", "Adopts", "Captures", "Surrenders",
-                            "Investigates", "ConductsProcedure", "ReceivesProcedure"};
+                            "Investigates", "ConductsProcedure", "ReceivesProcedure","cleans"};
         dropAllTables(conn1, tables);
 
 
@@ -68,6 +68,7 @@ public class InitializeReset {
         createTable(conn1, "Investigates", getInvestigatesStatement());
         createTable(conn1, "ConductsProcedure", getConductsProcedureStatement());
         createTable(conn1, "ReceivesProcedure", getReceivesProcedureStatement());
+        createTable(conn1, "cleans", getCleansStatement());
     }
 
     /* @todo
@@ -111,7 +112,7 @@ public class InitializeReset {
             System.out.println("Execute: "+ "INSERT INTO " + tableName + " VALUES(" + statement + ");");
             stmt.executeUpdate("INSERT INTO " + tableName + " VALUES(" + statement + ");");
             stmt.close();
-            
+
         }
         catch (SQLException e)
         {
@@ -349,4 +350,17 @@ public class InitializeReset {
                 "PRIMARY KEY(animalID, startTime, roomNumber)" +
                 ");";
     }
+
+    public static String getCleansStatement(){
+        return "CREATE TABLE cleans" +
+                "(roomNumber INTEGER, " +
+                "KennelNumber INTEGER," +
+                "cleanTime TIMESTAMP," +
+                "staffID INTEGER," +
+                "FOREIGN KEY(staffID) REFERENCES VolunteerCareWorker(staffID)," +
+                " FOREIGN KEY(roomnumber,KennelNumber) REFERENCES kennel(roomnumber, KennelNumber)," +
+                "PRIMARY KEY(roomNumber, kennelNumber, cleanTime)" +
+                ");" ;
+    }
+
 }
