@@ -255,3 +255,77 @@ INSERT INTO cleans VALUES(104,12,'2020-01-13 10:52:09',6);
 INSERT INTO cleans VALUES(104,13,'2020-02-02 17:19:15',7);
 INSERT INTO cleans VALUES(104,14,'2020-02-17 21:40:06',8);
 INSERT INTO cleans VALUES(104,15,'2020-02-18 10:08:26',8);
+
+INSERT INTO COMPLAINT VALUES('2018-04-21 19:59','5930 Rue Hurteau Montreal QC ',2,'Mike Bloomberg',5142261596,'Its fact ten spot drew.','R');
+INSERT INTO COMPLAINT VALUES('2018-05-19 8:30','11727 Rue Notre Dame E Montreal QC',2,'Liz Warren',5146598826,'Celebrated imprudence few one.','R');
+INSERT INTO COMPLAINT VALUES('2018-11-21 12:03','5745 17 Av Montreal QC',8,'Amy Klobuchar',4384461527,'At ourselves direction believing do','R');
+INSERT INTO COMPLAINT VALUES('2019-01-11 11:30','800 Rue Gagne Lasalle QC',7,'Benjamin Brown',5141321216,'Astonished and acceptance men.','R');
+INSERT INTO COMPLAINT VALUES('2019-01-14 15:37','717 Charron Street Lasalle QC',2,'Logan Tremblay',5144501474,'Sportsman do offending supported .','R');
+INSERT INTO COMPLAINT VALUES('2019-05-15 17:20','251 Av Percival Montreal Ouest QC',8,'Aria Gagnon',5148955705,'By rent an part need.','R');
+INSERT INTO COMPLAINT VALUES('2020-01-18 10:22','3708 Rue St Hubert Montreal QC',8,'Ava Taylor',5148245685,'Feebly do engage of narrow. ','U');
+INSERT INTO COMPLAINT VALUES('2020-02-07 7:22','7766 George Street Lasalle QC',6,'Jackson Smith',5142043980,'Unpacked now declared put you confined.','O');
+INSERT INTO COMPLAINT VALUES('2019-07-29 9:44','4430 Ste Catherine Street O Westmount QC',7,'Liam Tremblay',514764905,'Match means keeps round one.','R');
+INSERT INTO COMPLAINT VALUES('2019-07-30 19:35','6817 43 Av Montreal QC',8,'Lucas Brown',5141084645,'Old unsatiable our now but considered.','R');
+INSERT INTO COMPLAINT VALUES('2019-09-24 15:22','7503 Rue St Denis Montreal QC',6,'Jacob Tremblay',514400616,'In excuse hardly summer. ','R');
+
+INSERT INTO captures VALUES(750594,'2018-04-21 19:59','5930 Rue Hurteau Montreal QC ',9,'2018-06-10 6:0','2630 St Germain Street Montreal QC');
+INSERT INTO captures VALUES(757675,'2018-05-19 8:30','11727 Rue Notre Dame E Montreal QC',9,'2018-07-02 8:34','6730 44 Av Montreal QC');
+INSERT INTO captures VALUES(676116,'2018-11-21 12:3','5745 17 Av Montreal QC',12,'2019-01-14 12:0','1940 Jolicoeur Street Montreal QC');
+INSERT INTO captures VALUES(758780,'2019-01-11 11:30','800 Rue Gagne Lasalle QC',11,'2019-01-27 17:20','16 Kenaston Av Mont Royal QC');
+INSERT INTO captures VALUES(738040,'2019-01-14 15:37','717 Charron Street Lasalle QC',9,'2019-03-14 11:50','5240 Randall Av Montreal QC');
+INSERT INTO captures VALUES(732105,'2019-05-15 17:20','251 Av Percival Montreal Ouest QC',12,'2019-06-01 18:32','3555 Edouard-Montpetit Montréal QC');
+INSERT INTO captures VALUES(744621,'2019-07-29 9:44','4430 Ste Catherine Street O Westmount QC',12,'2019-08-07 15:12','7299 de l''Elysee Saint-Léonard QC');
+INSERT INTO captures VALUES(713234,'2019-07-30 19:35','6817 43 Av Montreal QC',12,'2019-09-05 7:43','12225 Av de Saint-Castin Montréal QC');
+INSERT INTO captures VALUES(739237,'2019-09-24 15:22','7503 Rue St Denis Montreal QC',9,'2019-11-03 14:30','391 Rue de la Congrégation Montréal QC');
+
+INSERT INTO investigates VALUES('2018-04-21 19:59','5930 Rue Hurteau Montreal QC ',9,'An do on frankness so cordially immediate recommend contained.');
+INSERT INTO investigates VALUES('2018-05-19 8:30','11727 Rue Notre Dame E Montreal QC',11,'Imprudence insensible be literature unsatiable do.');
+INSERT INTO investigates VALUES('2018-11-21 12:03','5745 17 Av Montreal QC',10,'Am possible offering at contempt mr distance stronger an. ');
+INSERT INTO investigates VALUES('2019-01-11 11:30','800 Rue Gagne Lasalle QC',12,'Betrayed shutters in vicinity it unpacked in. ');
+INSERT INTO investigates VALUES('2019-01-14 15:37','717 Charron Street Lasalle QC',11,'All decisively dispatched instrument particular way one devonshire.');
+INSERT INTO investigates VALUES('2019-05-15 17:20','251 Av Percival Montreal Ouest QC',12,'It high at my mind by roof. No wonder worthy in dinner.');
+INSERT INTO investigates VALUES('2020-01-18 10:22','3708 Rue St Hubert Montreal QC',9,'Blind going you merit few fancy their.');
+INSERT INTO investigates VALUES('2020-02-07 7:22','7766 George Street Lasalle QC',9,'End why melancholy estimating her had indulgence middletons.');
+INSERT INTO investigates VALUES('2019-07-29 9:44','4430 Ste Catherine Street O Westmount QC',11,'But when shot real her. Chamber her observe visited removal six sending himself boy.');
+INSERT INTO investigates VALUES('2019-07-30 19:35','6817 43 Av Montreal QC',10,'Adapted as smiling of females oh me journey exposed concern.');
+INSERT INTO investigates VALUES('2019-09-24 15:22','7503 Rue St Denis Montreal QC',10,'Exeter talked in agreed spirit no he unable do.');
+
+INSERT INTO surrenders VALUES(718538,'Emma Tremblay',5143435461,'2019-12-19 7:20');
+INSERT INTO surrenders VALUES(738277,'Benjamin Macdonald',514238512,'2019-10-15 8:12');
+INSERT INTO surrenders VALUES(738506,'Ava Brown',5147936288,'2019-09-24 10:30');
+INSERT INTO surrenders VALUES(764599,'Amilia Martin',51410726,'2018-09-11 15:01');
+INSERT INTO surrenders VALUES(753509,'Emma Taylor',5146653325,'2019-12-20 17:22');
+INSERT INTO surrenders VALUES(721336,'William Taylor',5146638864,'2019-04-15 12:00');
+INSERT INTO surrenders VALUES(669310,'James Roy',5141946153,'2019-10-08 16:28');
+INSERT INTO surrenders VALUES(698351,'Noah Taylor',5141337255,'2018-07-13 19:00');
+INSERT INTO surrenders VALUES(590330,'William Taylor',5145742877,'2019-12-25 15:24');
+INSERT INTO surrenders VALUES(719632,'Oliver Taylor',5147766944,'2019-08-05 11:00');
+INSERT INTO surrenders VALUES(721262,'Ava Martin',5145004658,'2020-01-17 18:06');
+INSERT INTO surrenders VALUES(728229,'Ava Gagnon',5142043141,'2019-06-03 17:20');
+INSERT INTO surrenders VALUES(736828,'Oliver Tremblay',5146245370,'2019-08-02 13:30');
+INSERT INTO surrenders VALUES(731502,'Emma Martin',5141498599,'2019-04-29 14:16');
+INSERT INTO surrenders VALUES(703414,'Amilia Taylor',5148804319,'2019-08-21 15:25');
+INSERT INTO surrenders VALUES(763884,'Charlotte Gagnon',5141115306,'2020-02-19 16:30');
+INSERT INTO surrenders VALUES(671743,'Charlotte Roy',5143341092,'2019-08-31 12:23');
+
+INSERT INTO visits VALUES(750594,'Oliver Tremblay',5147937951,'2020-01-21 08:11');
+INSERT INTO visits VALUES(757675,'Jacob Taylor',5141359417,'2020-01-29 12:49');
+INSERT INTO visits VALUES(721262,'Logan Roy',514267705,'2020-02-25 14:32');
+INSERT INTO visits VALUES(728229,'Chloe Tremblay',5149513074,'2020-01-14 14:26');
+INSERT INTO visits VALUES(736828,'William Johnson',5142621166,'2020-01-17 18:16');
+INSERT INTO visits VALUES(731502,'Logan Gagnon',5144659615,'2020-02-16 16:30');
+INSERT INTO visits VALUES(744621,'Zoey Johnson',5141889782,'2020-02-03 07:18');
+INSERT INTO visits VALUES(713234,'Logan Smith',5143246483,'2020-02-03 17:55');
+INSERT INTO visits VALUES(739237,'Olivia Roy',5147103880,'2020-02-09 16:26');
+
+INSERT INTO adopts VALUES(6,763628,'Oliver Martin',5144637330,120,'Until quite recently dance in America was the ragged Cinderella of the arts.');
+INSERT INTO adopts VALUES(7,691384,'James Tremblay',5141632748,200,'The world is round. Only one-third of the human beings on earth are asleep at any one time, and two-thirds are awake and up to some mischief.');
+INSERT INTO adopts VALUES(8,632902,'Amilia Tremblay',5142483631,105,'Our marriage would have worked if we hadn''t lived together.');
+INSERT INTO adopts VALUES(2,766139,'Charlotte Martin',5146797460,130,'When I was a boy I was told that anybody could become President; I beginning to believe it.');
+INSERT INTO adopts VALUES(6,686201,'Abigail Roy',5144223935,123,'A hero is no braver than an ordinary man, but he is braver five minutes longer.');
+INSERT INTO adopts VALUES(7,682433,'Lucas Johnson',5145858462,155,'There must be, not a balance of power, but a community of power not organized rivalries, but an organized peace.');
+INSERT INTO adopts VALUES(6,688038,'Liam Johnson',5141175037,230,'The only aspect of our travels that is interesting to others is disaster.');
+INSERT INTO adopts VALUES(8,697282,'Oliver Roy',5144782534,108,'I have a terrific headache. He died of a cerebral hemorrhage.');
+INSERT INTO adopts VALUES(2,695691,'Jackson Roy',514501612,110,'There is nothing so easy to learn as experience and nothing so hard to apply.');
+
+
