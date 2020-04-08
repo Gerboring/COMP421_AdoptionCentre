@@ -6,17 +6,37 @@ import java.util.Scanner;
 
 public class InitializeReset {
 
-    public static void main(String[] args) throws SQLException, ClassNotFoundException {
-        Class.forName("org.postgresql.Driver");
-        Scanner scan = new Scanner(System.in);
-        System.out.println("Input db password");
-        String password = scan.nextLine();
-        Connection conn1 = DriverManager.getConnection("jdbc:postgresql://comp421.cs.mcgill.ca:5432/cs421", "cs421g72", password);
-        System.out.println("Connection Successful");
+    public InitializeReset()
+    {
+        Connection conn1 = null;
+        try
+        {
+            Class.forName("org.postgresql.Driver");
+            Scanner scan = new Scanner(System.in);
+            System.out.println("Input db password");
+            String password = scan.nextLine();
+            conn1 = DriverManager.getConnection("jdbc:postgresql://comp421.cs.mcgill.ca:5432/cs421", "cs421g72", password);
+            System.out.println("Connection Successful");
 
-        createTables(conn1);
-        
-        //TODO: further test
+            createTables(conn1);
+        }
+        catch(SQLException e)
+        {
+            if(conn1 != null)
+            {
+                try {
+                    conn1.close();
+                } catch (SQLException ex) {
+                    ex.printStackTrace();
+                }
+            }
+            e.printStackTrace();
+        }
+        catch(ClassNotFoundException c)
+        {
+            c.printStackTrace();
+        }
+
         //Add animal csv inserts
         try
         {
@@ -36,9 +56,6 @@ public class InitializeReset {
             System.out.println("IO Error with Animal CSV: ");
             e.printStackTrace();
         }
-
-        //finally, close connection
-        conn1.close();
     }
 
     public static void createTables(Connection conn1) throws SQLException {
@@ -47,7 +64,6 @@ public class InitializeReset {
                             "Kennel", "Procedure", "Visits", "Adopts", "Captures", "Surrenders",
                             "Investigates", "ConductsProcedure", "ReceivesProcedure"};
         dropAllTables(conn1, tables);
-
 
         createTable(conn1, "Animal", getAnimalStatement());
         createTable(conn1, "Client", getClientStatement());
@@ -69,14 +85,6 @@ public class InitializeReset {
         createTable(conn1, "ConductsProcedure", getConductsProcedureStatement());
         createTable(conn1, "ReceivesProcedure", getReceivesProcedureStatement());
     }
-
-    /* @todo
-     * Captures
-     * Surrenders
-     * Investigates
-     * ConductsProcedure
-     * ReceivesProcedure
-     */
 
     public static void dropAllTables(Connection conn, String[] tableNames) throws SQLException {
         Statement stmt = conn.createStatement();

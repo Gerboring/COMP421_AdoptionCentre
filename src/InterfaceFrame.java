@@ -11,15 +11,19 @@ public class InterfaceFrame extends javax.swing.JFrame {
     private JPanel inputPanel; //contains user input text field
     private JButton sendButton; //for sending user input
 
-    //TODO: better exception handling
-    public static void main(String[] args) {
+    public InterfaceFrame() {
         try {
             UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 
             EventQueue.invokeLater(new Runnable() {
                 @Override
                 public void run() {
-                    new InterfaceFrame().setVisible(true);
+                    CreateSplitPanelSetUp();
+                    FrameSettings();
+                    CreateOptions();
+                    CreateInputPanel();
+
+                    pack();
                 }
             });
         }
@@ -27,17 +31,6 @@ public class InterfaceFrame extends javax.swing.JFrame {
         {
             e.printStackTrace();
         }
-    }
-
-    //Construct frame with query results on top and options/input on bottom
-    public InterfaceFrame()
-    {
-        CreateSplitPanelSetUp();
-        FrameSettings();
-        CreateOptions();
-        CreateInputPanel();
-
-        pack();
     }
 
     private void CreateSplitPanelSetUp()
@@ -67,10 +60,21 @@ public class InterfaceFrame extends javax.swing.JFrame {
         setResizable(false);
     }
 
+    /*
+    Add animal
+    Adopt animal
+    Search for a specific type of animal
+    File a complaint
+    Setting up a visit
+    */
+
     private void CreateOptions()
     {
         JButton addAnimalButton = new JButton("Add animal");
         JButton adoptAnimalButton = new JButton("Adopt animal");
+        JButton searchForAnimalButton = new JButton("Search for Animal");
+        JButton fileComplaintButton = new JButton("File Complaint");
+        JButton setupVisitButton = new JButton("Set Up Visit");
         JButton quitButton = new JButton("Quit");
 
         addAnimalButton.addActionListener((e) -> {
@@ -83,8 +87,23 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
         });
 
+        searchForAnimalButton.addActionListener((e) -> {
+            String s = e.getActionCommand();
+
+        });
+
+        fileComplaintButton.addActionListener((e) -> {
+            String s = e.getActionCommand();
+
+        });
+
+        setupVisitButton.addActionListener((e) -> {
+            String s = e.getActionCommand();
+
+        });
+
         quitButton.addActionListener((e) -> {
-            System.exit(0);
+            AdoptionDatabase.exit();
         });
 
         JPanel optionsPanel = new JPanel();
