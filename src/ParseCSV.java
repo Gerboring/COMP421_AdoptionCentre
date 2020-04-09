@@ -7,7 +7,7 @@ import java.util.Random;
 public class ParseCSV
 {
     //TODO: IO exception try catch
-    public static String[] getAnimalCSVStatements() throws IOException, SQLException {
+    public static String[] getAnimalCSVStatements() throws IOException {
         BufferedReader csvReader = new BufferedReader(new FileReader("./resources/animal_intake.csv"));
 
         //String[] animalInsertStatements = new String[(int) (csvReader.lines().count() - 1)];
