@@ -10,7 +10,8 @@ public class AdoptionDatabase
     public static void main(String[] args)
     {
         //initialize database
-        //initializeDatabaseObj = new InitializeReset();
+        initializeDatabaseObj = new InitializeReset();
+        //initializeDatabaseObj.ResetData();
 
         //set up database
         connObj = new ConnectionManager();
@@ -18,6 +19,11 @@ public class AdoptionDatabase
         //set up gui
         gui = new InterfaceFrame();
         gui.setVisible(true);
+    }
+
+    public static String[] sendStatement(String typeOfStatement, String tableName, String statement)
+    {
+        return connObj.executeStatement(typeOfStatement, tableName, statement);
     }
 
     public static void exit()

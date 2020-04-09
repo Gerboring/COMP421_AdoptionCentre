@@ -11,8 +11,14 @@ public class InterfaceFrame extends javax.swing.JFrame {
     private JPanel inputPanel; //contains user input text field
     private JButton sendButton; //for sending user input
 
+    private static int CUR_ANIMAL_ID = 12345;
+
+    private enum QueryOptions { ADDANIMAL, ADOPTANIMAL;}
+    private QueryOptions lastOptionPressed;
+
     public InterfaceFrame() {
-        try {
+        try
+        {
             UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
 
             EventQueue.invokeLater(new Runnable() {
@@ -77,32 +83,40 @@ public class InterfaceFrame extends javax.swing.JFrame {
         JButton setupVisitButton = new JButton("Set Up Visit");
         JButton quitButton = new JButton("Quit");
 
-        addAnimalButton.addActionListener((e) -> {
+        addAnimalButton.addActionListener((e) ->
+        {
+            String s = e.getActionCommand();
+            lastOptionPressed = QueryOptions.ADDANIMAL;
+            resultsTextArea.setText("Input: name (chars), species (chars), age (int), " +
+                    "breed (chars), sex (f or m), medical file location (char)");
+        });
+
+        adoptAnimalButton.addActionListener((e) ->
+        {
+            String s = e.getActionCommand();
+            lastOptionPressed = QueryOptions.ADOPTANIMAL;
+        });
+
+        searchForAnimalButton.addActionListener((e) ->
+        {
             String s = e.getActionCommand();
 
         });
 
-        adoptAnimalButton.addActionListener((e) -> {
+        fileComplaintButton.addActionListener((e) ->
+        {
             String s = e.getActionCommand();
 
         });
 
-        searchForAnimalButton.addActionListener((e) -> {
+        setupVisitButton.addActionListener((e) ->
+        {
             String s = e.getActionCommand();
 
         });
 
-        fileComplaintButton.addActionListener((e) -> {
-            String s = e.getActionCommand();
-
-        });
-
-        setupVisitButton.addActionListener((e) -> {
-            String s = e.getActionCommand();
-
-        });
-
-        quitButton.addActionListener((e) -> {
+        quitButton.addActionListener((e) ->
+        {
             AdoptionDatabase.exit();
         });
 
@@ -143,7 +157,29 @@ public class InterfaceFrame extends javax.swing.JFrame {
         sendButton.addActionListener((e) -> {
             String s = e.getActionCommand();
             String input = textField.getText();
-            resultsTextArea.setText(input);
+
+            String[] results = null;
+            switch (lastOptionPressed)
+            {
+                case ADDANIMAL:
+                    String[] params = input.split(",");
+
+                    String stmt = InitializeReset.getInsertAnimalStatement(
+                            CUR_ANIMAL_ID++, params[0].trim(), params[1].trim(),
+                            Integer.parseInt(params[2]), params[3].trim(), params[4].charAt(0),
+                            false, params[5].trim());
+                    results = AdoptionDatabase.sendStatement("insert", "Animal", stmt);
+                    break;
+                case ADOPTANIMAL:
+                    break;
+                default:
+                    return; //no option picked yet
+            }
+
+            String resultStr = "RESULTS:\n";
+            resultStr += results == null ? "Error" : String.join("\n", results);
+            resultsTextArea.setText(resultStr);
+
             textField.setText("");
         });
 

@@ -9,7 +9,8 @@ public class ConnectionManager
 
     public ConnectionManager()
     {
-        try {
+        try
+        {
             Class.forName("org.postgresql.Driver");
             Scanner scan = new Scanner(System.in);
             System.out.println("Input db password");
@@ -29,29 +30,43 @@ public class ConnectionManager
         }
     }
 
-    public String[] executeStatement(String fullStatement)
+    public String[] executeStatement(String typeOfQuery, String tableName, String fullStatement)
     {
         Statement stmt;
-        try {
+        try
+        {
             stmt = conn.createStatement();
-            stmt.executeUpdate(fullStatement);
+
+            switch (typeOfQuery)
+            {
+                case "insert":
+                    stmt.executeUpdate("INSERT INTO " + tableName + " VALUES(" + fullStatement + ");");
+                    return new String[]{fullStatement};
+                case "query":
+                    //TODO: change this to a query
+                    ResultSet result = stmt.executeQuery("INSERT INTO " + tableName + " VALUES(" + fullStatement + ");");
+                    return resultTableToString(result);
+                default:
+                    break;
+            }
             stmt.close();
-        } catch (SQLException e) {
-            System.out.println("Error with your statement... ");
+        } catch (SQLException e)
+        {
+            System.out.println("Error with your " + typeOfQuery + ": " + fullStatement);
             closeConnection();
             e.printStackTrace();
         }
 
-        return resultTableToString(fullStatement);
+        return null;
     }
 
-    private String[] resultTableToString(String statement) {
+    //formats the results of a query with each String in the array being a record
+    private String[] resultTableToString(ResultSet rs) {
         String[] result = null;
 
         try
         {
             Statement st = conn.createStatement();
-            ResultSet rs = st.executeQuery(statement);
             ResultSetMetaData metaData = rs.getMetaData();
 
             int cols = metaData.getColumnCount();
@@ -82,7 +97,8 @@ public class ConnectionManager
     }
 
     public void closeConnection() {
-        try{
+        try
+        {
             if(conn != null && !conn.isClosed())
             {
                 System.out.println("Connection closing... ");

@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class InitializeReset {
 
-    public InitializeReset()
+    public void ResetData()
     {
         Connection conn1 = null;
         try
