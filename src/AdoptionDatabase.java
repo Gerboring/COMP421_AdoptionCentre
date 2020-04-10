@@ -1,6 +1,3 @@
-import java.sql.Connection;
-import java.sql.SQLException;
-
 public class AdoptionDatabase
 {
     private static InitializeReset initializeDatabaseObj;
@@ -11,14 +8,14 @@ public class AdoptionDatabase
     {
         //initialize database
         initializeDatabaseObj = new InitializeReset();
-        //initializeDatabaseObj.ResetData();
+        initializeDatabaseObj.ResetData();
 
         //set up database
-        connObj = new ConnectionManager();
+        //connObj = new ConnectionManager();
 
         //set up gui
-        gui = new InterfaceFrame();
-        gui.setVisible(true);
+        //gui = new InterfaceFrame();
+        //gui.setVisible(true);
     }
 
     public static String[] sendStatement(String typeOfStatement, String tableName, String statement)
