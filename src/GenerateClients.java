@@ -1,7 +1,6 @@
 import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Random;
-
 public class GenerateClients {
 	
 	public static String[] generateClientInsertStatements(int size) {
@@ -32,7 +31,7 @@ public class GenerateClients {
 		ArrayList<Integer> secondNumbers = new ArrayList<Integer>();
 		ArrayList<BigInteger> phoneNumbers = new ArrayList<BigInteger>();
 		
-		Random random = new Random();
+		Random random = new Random(1);
 		int index = 0;
 		Integer number = 0;
 		Integer streetNumber = 0;
