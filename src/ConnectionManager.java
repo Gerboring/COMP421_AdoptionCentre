@@ -6,8 +6,9 @@ import java.util.Scanner;
 public class ConnectionManager
 {
     private static Connection conn;
+    private ResultSetModel aModel;
 
-    public ConnectionManager()
+    public ConnectionManager(ResultSetModel pModel)
     {
         try
         {
@@ -17,6 +18,7 @@ public class ConnectionManager
             String password = scan.nextLine();
             conn = DriverManager.getConnection("jdbc:postgresql://comp421.cs.mcgill.ca:5432/cs421", "cs421g72", password);
             System.out.println("Connection Successful");
+            aModel = pModel;
         }
         catch (SQLException e)
         {
@@ -30,22 +32,24 @@ public class ConnectionManager
         }
     }
 
-    public String[] executeStatement(String typeOfQuery, String tableName, String fullStatement)
+    public String executeStatement(String typeOfQuery, String tableName, String fullStatement)
     {
         Statement stmt;
         try
         {
-            stmt = conn.createStatement();
+            stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_UPDATABLE);
 
             switch (typeOfQuery)
             {
                 case "insert":
                     stmt.executeUpdate("INSERT INTO " + tableName + " VALUES(" + fullStatement + ");");
-                    return new String[]{fullStatement};
+                    return fullStatement;
                 case "query":
                     //TODO: change this to a query
-                    ResultSet result = stmt.executeQuery("INSERT INTO " + tableName + " VALUES(" + fullStatement + ");");
-                    return resultTableToString(result);
+                    ResultSet result = stmt.executeQuery(fullStatement);
+                    //update ResultSetDecorator
+                    aModel.setRS(result);
+                    return aModel.toString();
                 default:
                     break;
             }
@@ -60,9 +64,10 @@ public class ConnectionManager
         return null;
     }
 
+    /*
     //formats the results of a query with each String in the array being a record
-    private String[] resultTableToString(ResultSet rs) {
-        String[] result = null;
+    private String resultTableToString(ResultSet rs) {
+        String result = "";
 
         try
         {
@@ -70,19 +75,22 @@ public class ConnectionManager
             ResultSetMetaData metaData = rs.getMetaData();
 
             int cols = metaData.getColumnCount();
-            result = new String[cols];
 
-            for(int i = 0; i < cols; i++){
-                result[0] += metaData.getColumnLabel(i) + " ";
+            for(int i = 1; i <= cols; i++){
+                result += metaData.getColumnLabel(i) + ",";
             }
+            
+            result += "\n";
 
             while (rs.next()) {
                 for (int i = 1; i <= cols; i++) {
-                    result[i] += rs.getString(i);
+                    result += rs.getString(i);
 
-                    if(i != cols - 1)
+                    if(i != cols)
                     {
-                        result[i] += ",";
+                        result += ",";
+                    }else {
+                    	result += "\n";
                     }
                 }
             }
@@ -95,8 +103,10 @@ public class ConnectionManager
 
         return result;
     }
+    
+    */
 
-    public void closeConnection() {
+    public static void closeConnection() {
         try
         {
             if(conn != null && !conn.isClosed())

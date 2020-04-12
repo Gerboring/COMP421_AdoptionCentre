@@ -7,18 +7,21 @@ public class AdoptionDatabase
     public static void main(String[] args)
     {
         //initialize database
-        initializeDatabaseObj = new InitializeReset();
-        initializeDatabaseObj.ResetData();
+        //initializeDatabaseObj = new InitializeReset();
+        //initializeDatabaseObj.ResetData();
+    	
+    	//create new result set, as M in MVC, connObj is controller, and InterfaceFrame is viewer
+    	ResultSetModel rsModel = new ResultSetModel();
 
         //set up database
-        //connObj = new ConnectionManager();
+        connObj = new ConnectionManager(rsModel);
 
         //set up gui
-        //gui = new InterfaceFrame();
-        //gui.setVisible(true);
+        gui = new InterfaceFrame(rsModel);
+        gui.setVisible(true);
     }
 
-    public static String[] sendStatement(String typeOfStatement, String tableName, String statement)
+    public static String sendStatement(String typeOfStatement, String tableName, String statement)
     {
         return connObj.executeStatement(typeOfStatement, tableName, statement);
     }
