@@ -23,3 +23,6 @@ FROM Adopts;
 SELECT *
 FROM Animal
 WHERE animalid = 706918;
+
+SELECT *
+FROM Complaint;

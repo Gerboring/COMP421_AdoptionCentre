@@ -112,7 +112,8 @@ public class InterfaceFrame extends javax.swing.JFrame {
         {
             String s = e.getActionCommand();
             lastOptionPressed = QueryOptions.FILECOMPLAINT;
-            resultsTextArea.setText("Input:  ???????? ");
+            resultsTextArea.setText("Input: complaintTime(date),complaintLocation (chars),staffid (int),client name (char)"
+            		+ "client phone (char), description (char), status (char)");
         });
 
         setupVisitButton.addActionListener((e) ->
@@ -274,6 +275,53 @@ public class InterfaceFrame extends javax.swing.JFrame {
                     break;
 
                 case FILECOMPLAINT:
+                	//process input, size = 7
+                	params = input.split(",");
+                	System.out.println(params[2]);
+                	
+                	//check integer parameters
+                	if (!isNumeric(params[2]))
+                    {
+                        results = "Error! The staff id must be an integer.";
+                        break;
+                    }
+                	
+                	//check if staffid exists
+                	getStmt = 
+            				"SELECT * "+
+            				"FROM VolunteerCareWorker "+
+            				"WHERE staffid = "+ params[2].trim() + ";";
+                	
+                	AdoptionDatabase.sendStatement("query", null, getStmt);
+                	
+                	if(aModel.isEmpty()==true) {
+                		results = "Error! Staff id does not exist!";
+                		break;
+                	}else {
+                		results += "Staff exists.\n";
+                	}
+                	
+                	//check if client exists
+                	getStmt = 
+            				"SELECT *"+
+            				"FROM Client "+
+            				"WHERE clientName = "+
+            				"'"+params[3]+"'" +
+            				"AND "+"clientPhone= " + "'" + params[4] +"';";
+                	
+                	AdoptionDatabase.sendStatement("query", null, getStmt);
+                	
+                	if(aModel.isEmpty()==true) {
+                		results = "Error! Client does not exist!";
+                		break;
+                	}else {
+                		results += "Client exists.\n";
+                	}
+                	
+                	//create Complaint table entry and insert
+                	String fileComplaintInsert = String.format("'%s','%s',%s,'%s',%s,'%s','%s'", params[0],params[1],params[2],params[3],params[4],params[5],params[6]);
+                	results += AdoptionDatabase.sendStatement("insert", "Complaint", fileComplaintInsert);
+                	
                     break;
                 case SETUPVISIT:
                     params = input.split(",");
