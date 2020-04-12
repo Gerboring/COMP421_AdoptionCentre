@@ -208,7 +208,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
                 	
                 	//create SQL statement looking for animal
                 	getStmt = 
-            				"SELECT animalID,isAdopted "+
+            				"SELECT * "+
             				"FROM Animal "+
             				"WHERE animalID = "+
             				params2[1].trim() +
@@ -260,7 +260,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
                             "SELECT animalID,isAdopted " +
                                     "FROM Animal " +
                                     "WHERE species = " +
-                                    param +
+                                    "'" + param + "'" +
                                     ";";
 
                     //complete SQL query, update ResultSetModel and update prelim results String
@@ -335,10 +335,10 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
                     //create SQL statement looking for visits at that time
                     String  checkVisitsStmt =
-                            "SELECT animalID" +
+                            "SELECT animalID " +
                                     "FROM Visits " +
                                     "WHERE visitTime = " +
-                                    params[3] +
+                                     "'" + params[3].trim() + "'" +
                                     ";";
 
                     results = AdoptionDatabase.sendStatement("query", "Visits", checkVisitsStmt);
@@ -350,7 +350,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
                     }
 
                     String visitsStmt = String.format("%d,'%s','%s','%s'",
-                            Integer.parseInt(params[0]), params[1], params[2], params[3]);
+                            Integer.parseInt(params[0].trim()), params[1].trim(), params[2].trim(), params[3].trim());
 
                     results = AdoptionDatabase.sendStatement("insert", "Visits", visitsStmt);
                     break;
