@@ -15,8 +15,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
     private ResultSetModel aModel;
 
     private static int CUR_ANIMAL_ID = 12345;
-
-    private enum QueryOptions { ADDANIMAL, ADOPTANIMAL;}
+    private enum QueryOptions { ADDANIMAL, ADOPTANIMAL, SEARCHANIMALBYTYPE, FILECOMPLAINT, SETUPVISIT;}
     private QueryOptions lastOptionPressed;
 
     public InterfaceFrame(ResultSetModel rsModel) {
@@ -105,19 +104,22 @@ public class InterfaceFrame extends javax.swing.JFrame {
         searchForAnimalButton.addActionListener((e) ->
         {
             String s = e.getActionCommand();
-
+            lastOptionPressed = QueryOptions.SEARCHANIMALBYTYPE;
+            resultsTextArea.setText("Input: animalSpecies (chars)");
         });
 
         fileComplaintButton.addActionListener((e) ->
         {
             String s = e.getActionCommand();
-
+            lastOptionPressed = QueryOptions.FILECOMPLAINT;
+            resultsTextArea.setText("Input:  ???????? ");
         });
 
         setupVisitButton.addActionListener((e) ->
         {
             String s = e.getActionCommand();
-
+            lastOptionPressed = QueryOptions.SETUPVISIT;
+            resultsTextArea.setText("Input: animalID (int), client name (char), client phone (char), visit time (date)");
         });
 
         quitButton.addActionListener((e) ->
@@ -131,6 +133,9 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
         optionsPanel.add(addAnimalButton);
         optionsPanel.add(adoptAnimalButton);
+        optionsPanel.add(searchForAnimalButton);
+        optionsPanel.add(fileComplaintButton);
+        optionsPanel.add(setupVisitButton);
         optionsPanel.add(quitButton);
         topPanel.add(optionsPanel);
     }
@@ -162,12 +167,18 @@ public class InterfaceFrame extends javax.swing.JFrame {
         sendButton.addActionListener((e) -> {
             String s = e.getActionCommand();
             String input = textField.getText();
-
-            String results = "";
-            switch (lastOptionPressed)
-            {
+            
+            String results = null;
+            String[] params = null;
+            switch (lastOptionPressed) {
                 case ADDANIMAL:
-                    String[] params = input.split(",");
+                    params = input.split(",");
+
+                    if (!isNumeric(params[2]))
+                    {
+                        results = "Error! The animal id must be an integer.";
+                        break;
+                    }
 
                     String stmt = InitializeReset.getInsertAnimalStatement(
                             CUR_ANIMAL_ID++, params[0].trim(), params[1].trim(),
@@ -176,7 +187,6 @@ public class InterfaceFrame extends javax.swing.JFrame {
                     results = AdoptionDatabase.sendStatement("insert", "Animal", stmt);
                     break;
                 case ADOPTANIMAL:
-                	
                 	//input = (staffid,animalid,client name,client phone, fee, contract)
                 	String[] params2 = input.split(",");
                 	
@@ -240,6 +250,60 @@ public class InterfaceFrame extends javax.swing.JFrame {
                 	String updateStmt = "SET isadopted = '1' WHERE animalid = " + params2[1];
                 	results += AdoptionDatabase.sendStatement("update", "Animal", updateStmt);
                 	
+                case SEARCHANIMALBYTYPE:
+                    //input = (animalSpecies)
+                    String param = input.trim().substring(0, 1).toUpperCase() + input.substring(1).toLowerCase();
+
+                    //create SQL statement looking for animal
+                    String speciesStmt =
+                            "SELECT animalID,isAdopted " +
+                                    "FROM Animal " +
+                                    "WHERE species = " +
+                                    param +
+                                    ";";
+
+                    //complete SQL query, update ResultSetModel and update prelim results String
+                    results = AdoptionDatabase.sendStatement("query", null, speciesStmt);
+                    //System.out.println(aModel.toString());
+
+                    //check if animal does not exist and alter output message
+                    if (aModel.isEmpty() == true) {
+                        results = "No animals of species " + param + ", please enter a different animal species or choose another query";
+                        break;
+                    }
+                    break;
+
+                case FILECOMPLAINT:
+                    break;
+                case SETUPVISIT:
+                    params = input.split(",");
+
+                    if (!isNumeric(params[0]))
+                    {
+                        results = "Error! The animal id must be an integer.";
+                        break;
+                    }
+
+                    //create SQL statement looking for visits at that time
+                    String  checkVisitsStmt =
+                            "SELECT animalID" +
+                                    "FROM Visits " +
+                                    "WHERE visitTime = " +
+                                    params[3] +
+                                    ";";
+
+                    results = AdoptionDatabase.sendStatement("query", "Visits", checkVisitsStmt);
+
+                    if(!aModel.isEmpty())
+                    {
+                        results = "Error! There is already a visit appointment at this time.";
+                        break;
+                    }
+
+                    String visitsStmt = String.format("%d,'%s','%s','%s'",
+                            Integer.parseInt(params[0]), params[1], params[2], params[3]);
+
+                    results = AdoptionDatabase.sendStatement("insert", "Visits", visitsStmt);
                     break;
                 default:
                     return; //no option picked yet
@@ -254,5 +318,14 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
         inputPanel.add(textField); //on left
         inputPanel.add(sendButton);  //on right
+    }
+
+    public static boolean isNumeric(String str) {
+        try {
+            Integer.parseInt(str);
+            return true;
+        } catch(NumberFormatException e){
+            return false;
+        }
     }
 }
