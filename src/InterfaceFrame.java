@@ -208,7 +208,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
                 	
                 	//create SQL statement looking for animal
                 	getStmt = 
-            				"SELECT * "+
+            				"SELECT animalID,isAdopted "+
             				"FROM Animal "+
             				"WHERE animalID = "+
             				params2[1].trim() +
@@ -257,7 +257,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
                     //create SQL statement looking for animal
                     String speciesStmt =
-                            "SELECT animalID,isAdopted " +
+                            "SELECT * " +
                                     "FROM Animal " +
                                     "WHERE species = " +
                                     "'" + param + "'" +
