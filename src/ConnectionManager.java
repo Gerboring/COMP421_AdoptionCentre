@@ -45,11 +45,15 @@ public class ConnectionManager
                     stmt.executeUpdate("INSERT INTO " + tableName + " VALUES(" + fullStatement + ");");
                     return fullStatement;
                 case "query":
-                    //TODO: change this to a query
+                    //complete query, update model, and return string
                     ResultSet result = stmt.executeQuery(fullStatement);
-                    //update ResultSetDecorator
                     aModel.setRS(result);
                     return aModel.toString();
+                case "update":
+                	//complete update in desired tableName
+                	System.out.println("UPDATE " + tableName+ " " + fullStatement + ";");
+                	stmt.executeUpdate("UPDATE " + tableName + " " + fullStatement + ";");
+                    return fullStatement;
                 default:
                     break;
             }

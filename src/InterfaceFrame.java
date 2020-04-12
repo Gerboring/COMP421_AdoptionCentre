@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.*;
+import java.sql.SQLException;
 
 public class InterfaceFrame extends javax.swing.JFrame {
     static JTextField textField; //user input
@@ -98,7 +99,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
         {
             String s = e.getActionCommand();
             lastOptionPressed = QueryOptions.ADOPTANIMAL;
-            resultsTextArea.setText("Input: animalID (int),clientid (int),contract,fee,adopttime");
+            resultsTextArea.setText("Input: staffid (int), animalID (int),client name (chars),client phone (int),fee(int),contract(chars)");
         });
 
         searchForAnimalButton.addActionListener((e) ->
@@ -162,7 +163,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
             String s = e.getActionCommand();
             String input = textField.getText();
 
-            String results = null;
+            String results = "";
             switch (lastOptionPressed)
             {
                 case ADDANIMAL:
@@ -176,51 +177,68 @@ public class InterfaceFrame extends javax.swing.JFrame {
                     break;
                 case ADOPTANIMAL:
                 	
-                	//input = (animalid,clientid,contract,fee,adopttime)
+                	//input = (staffid,animalid,client name,client phone, fee, contract)
                 	String[] params2 = input.split(",");
                 	
-                	//create SQL statement looking for animal
+                	//create SQL statement looking for employee
                 	String getStmt = 
-            				"SELECT animalID,isAdopted "+
-            				"FROM Animal "+
-            				"WHERE animalID = "+
-            				params2[0].trim() +
-            				";";
+            				"SELECT * "+
+            				"FROM VolunteerCareWorker "+
+            				"WHERE staffid = "+ params2[0].trim() + ";";
                 	
-                	//complete SQL query, update ResultSetModel and update prelim results String
-                	results = AdoptionDatabase.sendStatement("query", null, getStmt);
-                	//System.out.println(aModel.toString());
+                	AdoptionDatabase.sendStatement("query", null, getStmt);
                 	
-                	//check if animal does not exist and alter output message
                 	if(aModel.isEmpty()==true) {
-                		results = "Error! Animal does not exist, please enter a different animal id or choose another query";
+                		results += "Error! Staffid does not exist, please enter a different staffid or choose another query";
                 		break;
+                	}else {
+                		results += "Staff Exists\n";
                 	}
                 	
-                	//check if animal has already been adopted and alter output message
-                	if(aModel.search("animalid", input, "isadopted")=="1") {
-                		results = "Error! Animal has already been adopted, please enter a different animal id or choose another query";
-                		break;
-                	}
-                	
-                	//create SQL statement looking for client
+                	//create SQL statement looking for animal
                 	getStmt = 
             				"SELECT animalID,isAdopted "+
             				"FROM Animal "+
             				"WHERE animalID = "+
             				params2[1].trim() +
-            				";";
+            				"AND isadopted='0';";
+                	
+                	//complete SQL query, update ResultSetModel and update prelim results String
+                	AdoptionDatabase.sendStatement("query", null, getStmt);
+                	
+                	//check if query results are empty (ergo animal does not exist or has already been adopted)
+                	if(aModel.isEmpty()==true) {
+                		results += "Error! Animal does not exist or has already been adopted, please enter a different animal id or choose another query";
+                		break;
+                	}else {
+                		results += "Animal Exists\n";
+                	}
+                	
+                	//create SQL statement looking for client
+                	getStmt = 
+            				"SELECT *"+
+            				"FROM Client "+
+            				"WHERE clientName = "+
+            				"'"+params2[2]+"'" +
+            				"AND "+"clientPhone= " + "'" + params2[3] +"';";
+                	
+                	AdoptionDatabase.sendStatement("query", null, getStmt);
                 	
                 	//check if client exists and continue
                 	if(aModel.isEmpty()==true) {
-                		results = "Error! Animal does not exist, please enter a different animal id or choose another query";
+                		results += "Error! client does not exist, please enter a different animal id or choose another query";
                 		break;
+                	}else {
+                		results += "Client Exists\n";
                 	}
                 	
-                	//create SQL statement looking for employee id
+                	//create insert statement for Adopts and update animalIsAdopted = 'True'
+                	String insertStmt = String.format("%s,%s,'%s','%s',%s,'%s'", params2[0],params2[1],params2[2],params2[3],params2[4],params2[5]);
+                	results += AdoptionDatabase.sendStatement("insert", "Adopts", insertStmt);
                 	
-                	//create insert statement
-                    results = AdoptionDatabase.sendStatement("insert", "Adopts", input);
+                	//update Animal.isadopted
+                	String updateStmt = "SET isadopted = '1' WHERE animalid = " + params2[1];
+                	results += AdoptionDatabase.sendStatement("update", "Animal", updateStmt);
                 	
                     break;
                 default:
