@@ -276,6 +276,7 @@ public class InterfaceFrame extends javax.swing.JFrame {
 
                 case FILECOMPLAINT:
                 	//process input, size = 7
+                	results = "";
                 	params = input.split(",");
                 	System.out.println(params[2]);
                 	
